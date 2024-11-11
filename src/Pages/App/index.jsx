@@ -1,4 +1,5 @@
 import { useRoutes, BrowserRouter } from 'react-router-dom'
+import { DraftVerseProvider } from '../../Context'
 import { Home } from '../Home'
 import { NotFound } from '../NotFound'
 import './App.css'
@@ -17,9 +18,11 @@ const AppRoutes = () => {
 
 function App() {
   return (
-    <BrowserRouter>
-      <AppRoutes />
-    </BrowserRouter>
+    <DraftVerseProvider>
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
+    </DraftVerseProvider>
   )
 }
 
