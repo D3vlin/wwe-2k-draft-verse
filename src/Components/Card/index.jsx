@@ -1,8 +1,8 @@
-const Card = ({ image, media, name }) => {
+const Card = ({ image, media, name, widthClass }) => {
     const backgroundImage = import.meta.env.VITE_BACKGROUND_IMAGE_PATH
 
     return (
-        <article className="cursor-pointer rounded-lg text-black w-[calc(100%/13)] bg-slate-800">
+        <article className={`cursor-pointer rounded-lg text-black ${widthClass} bg-slate-800`}>
             <figure
                 className="relative w-full rounded-tl-lg rounded-tr-lg"
                 style={{
