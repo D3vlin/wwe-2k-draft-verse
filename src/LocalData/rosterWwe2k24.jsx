@@ -7,7 +7,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/ajHawk.webp',
         name: 'Aj Hawk',
         media: '78',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -17,7 +18,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/ajStyles.webp',
         name: 'Aj Styles',
         media: '85',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -27,7 +29,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/akiraTozawa.webp',
         name: 'Akira Tozawa',
         media: '68',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -37,7 +40,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/albaFyre.webp',
         name: 'Alba Fyre',
         media: '74',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -47,7 +51,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/alexaBliss.webp',
         name: 'Alexa Bliss',
         media: '83',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -57,7 +62,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/andreChase.webp',
         name: 'Andre Chase',
         media: '73',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -67,7 +73,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/andreTheGiant.webp',
         name: '	Andre The Giant',
         media: '91',
-        weight: 'Super Heavyweight'
+        weight: 'Super Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -77,7 +84,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/angelGarza.webp',
         name: 'Angel Garza',
         media: '67',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -87,7 +95,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/angeloDawkins.webp',
         name: 'Angelo Dawkins',
         media: '74',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -97,7 +106,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/apolloCrews.webp',
         name: 'Apollo Crews',
         media: '71',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -107,7 +117,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/ashanteTheeAdonis.webp',
         name: 'Ashante Thee Adonis',
         media: '62',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -117,7 +128,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/asuka.webp',
         name: 'Asuka',
         media: '90',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -127,7 +139,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/asuka64Bit.webp',
         name: 'Asuka (64 Bit)',
         media: '86',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -137,7 +150,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/austinTheory.webp',
         name: 'Austin Theory',
         media: '72',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -147,7 +161,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/axiom.webp',
         name: 'Axiom',
         media: '73',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -157,7 +172,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/badBunny.webp',
         name: 'Bad Bunny',
         media: '78',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -167,7 +183,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/baronCorbin.webp',
         name: 'Baron Corbin',
         media: '76',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -177,7 +194,8 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/batista.webp',
         name: 'Batista',
         media: '89',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -188,6 +206,7 @@ const RosterWwe2k24 = [
         name: 'Batista 2008',
         media: '91',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -198,6 +217,7 @@ const RosterWwe2k24 = [
         name: 'Bayley',
         media: '85',
         weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -208,6 +228,7 @@ const RosterWwe2k24 = [
         name: 'Becky Lynch',
         media: '94',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -218,6 +239,7 @@ const RosterWwe2k24 = [
         name: 'Becky Lynch 2018',
         media: '87',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -228,6 +250,7 @@ const RosterWwe2k24 = [
         name: 'Becky Lynch 2019',
         media: '90',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -238,6 +261,7 @@ const RosterWwe2k24 = [
         name: 'Beth Phoenix',
         media: '87',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -248,6 +272,7 @@ const RosterWwe2k24 = [
         name: 'Bianca Belair',
         media: '95',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -258,6 +283,7 @@ const RosterWwe2k24 = [
         name: 'Bianca Belair (64 Bit)',
         media: '87',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: 'Deluxe Edition',
@@ -268,6 +294,7 @@ const RosterWwe2k24 = [
         name: 'Bianca Belair 2017',
         media: '70',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -278,6 +305,7 @@ const RosterWwe2k24 = [
         name: 'Big Boss Man',
         media: '79',
         weight: 'Super Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -288,6 +316,7 @@ const RosterWwe2k24 = [
         name: 'Big E',
         media: '78',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -298,6 +327,7 @@ const RosterWwe2k24 = [
         name: '"Big Poppa Pump" Scott Steiner',
         media: '83',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -308,6 +338,7 @@ const RosterWwe2k24 = [
         name: 'Blair Davenport',
         media: '74',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -318,6 +349,7 @@ const RosterWwe2k24 = [
         name: 'Bobby Lashley',
         media: '89',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -328,6 +360,7 @@ const RosterWwe2k24 = [
         name: 'Boogeyman',
         media: '74',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -338,6 +371,7 @@ const RosterWwe2k24 = [
         name: 'Booker T',
         media: '85',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -348,6 +382,7 @@ const RosterWwe2k24 = [
         name: 'Booker T 2001',
         media: '85',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: 'Pat Mcafee Pack',
@@ -358,6 +393,7 @@ const RosterWwe2k24 = [
         name: 'Boston Connor',
         media: '71',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -368,6 +404,7 @@ const RosterWwe2k24 = [
         name: 'Braun Strowman',
         media: '82',
         weight: 'Super Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -378,6 +415,7 @@ const RosterWwe2k24 = [
         name: 'Bray Wyatt',
         media: '90',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: 'Bray Wyatt Edition',
@@ -388,6 +426,7 @@ const RosterWwe2k24 = [
         name: 'Bray Wyatt "Élite"',
         media: '90',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -398,6 +437,7 @@ const RosterWwe2k24 = [
         name: 'Bray Wyatt 2020',
         media: '88',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -408,6 +448,7 @@ const RosterWwe2k24 = [
         name: 'Bray Wyatt 2020 (nWo)',
         media: '87',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -418,6 +459,7 @@ const RosterWwe2k24 = [
         name: 'Bray Wyatt 2020 (SNME)',
         media: '85',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -428,6 +470,7 @@ const RosterWwe2k24 = [
         name: 'Bret Hart',
         media: '93',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -438,6 +481,7 @@ const RosterWwe2k24 = [
         name: 'Bret Hart 1992',
         media: '83',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -448,6 +492,7 @@ const RosterWwe2k24 = [
         name: 'British Bulldog',
         media: '85',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -458,6 +503,7 @@ const RosterWwe2k24 = [
         name: 'Bron Breakker',
         media: '80',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -468,6 +514,7 @@ const RosterWwe2k24 = [
         name: 'Bronson Reed',
         media: '84',
         weight: 'Super Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -478,6 +525,7 @@ const RosterWwe2k24 = [
         name: 'Brooks Jensen',
         media: '67',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -488,6 +536,7 @@ const RosterWwe2k24 = [
         name: 'Bruno Sammartino',
         media: '91',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -498,6 +547,7 @@ const RosterWwe2k24 = [
         name: 'Brutus Creed',
         media: '78',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: 'ECW Punk Pack',
@@ -508,6 +558,7 @@ const RosterWwe2k24 = [
         name: 'Bubba Ray Dudley',
         media: '85',
         weight: 'Super Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -518,6 +569,7 @@ const RosterWwe2k24 = [
         name: 'Butch',
         media: '75',
         weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -528,6 +580,7 @@ const RosterWwe2k24 = [
         name: 'Cactus Jack',
         media: '82',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -538,6 +591,7 @@ const RosterWwe2k24 = [
         name: 'Cameron Grimes',
         media: '73',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -548,6 +602,7 @@ const RosterWwe2k24 = [
         name: 'Candice LeRae',
         media: '67',
         weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: 'Global Superstars Pack',
@@ -558,6 +613,7 @@ const RosterWwe2k24 = [
         name: 'Carlito',
         media: '80',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -568,6 +624,7 @@ const RosterWwe2k24 = [
         name: 'Carmella',
         media: '74',
         weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -578,6 +635,7 @@ const RosterWwe2k24 = [
         name: 'Carmelo Hayes',
         media: '81',
         weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -588,6 +646,7 @@ const RosterWwe2k24 = [
         name: 'Cedric Alexander',
         media: '69',
         weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -598,6 +657,7 @@ const RosterWwe2k24 = [
         name: 'Chad Gable',
         media: '80',
         weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -608,6 +668,7 @@ const RosterWwe2k24 = [
         name: 'Chad Gable 2016',
         media: '86',
         weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -618,6 +679,7 @@ const RosterWwe2k24 = [
         name: 'Channing "Stacks" Lorenzo',
         media: '69',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -628,6 +690,7 @@ const RosterWwe2k24 = [
         name: 'Charlotte Flair',
         media: '92',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: '40 Years of WrestleMania Edition',
@@ -638,6 +701,7 @@ const RosterWwe2k24 = [
         name: 'Charlotte Flair 2017',
         media: '87',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -648,6 +712,7 @@ const RosterWwe2k24 = [
         name: 'Charlotte Flair 2019',
         media: '93',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -658,6 +723,7 @@ const RosterWwe2k24 = [
         name: 'Chelsea Green',
         media: '75',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -668,6 +734,7 @@ const RosterWwe2k24 = [
         name: 'Chyna',
         media: '88',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: 'ECW Punk Pack',
@@ -678,6 +745,7 @@ const RosterWwe2k24 = [
         name: 'CM Punk',
         media: '90',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -688,6 +756,7 @@ const RosterWwe2k24 = [
         name: 'CM Punk (Piper)',
         media: '90',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -698,6 +767,7 @@ const RosterWwe2k24 = [
         name: 'CM Punk (S.E.S.)',
         media: '90',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -708,6 +778,7 @@ const RosterWwe2k24 = [
         name: 'CM Punk 2010',
         media: '98',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -718,6 +789,7 @@ const RosterWwe2k24 = [
         name: 'CM Punk 2010 (Masked)',
         media: '90',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -728,6 +800,7 @@ const RosterWwe2k24 = [
         name: 'Cody Rhodes',
         media: '93',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: 'Nightmare Family Pack',
@@ -738,6 +811,7 @@ const RosterWwe2k24 = [
         name: 'Cody Rhodes "Élite"',
         media: '91',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -748,6 +822,7 @@ const RosterWwe2k24 = [
         name: 'Cora Jade',
         media: '74',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -758,6 +833,7 @@ const RosterWwe2k24 = [
         name: 'Cruz Del Toro',
         media: '69',
         weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: 'ECW Punk Pack',
@@ -768,6 +844,7 @@ const RosterWwe2k24 = [
         name: 'D-Von Dudley',
         media: '84',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -778,6 +855,7 @@ const RosterWwe2k24 = [
         name: 'Dakota Kai',
         media: '78',
         weight: 'Cruserweight',
+        tags: [],
     },
     {
         dlc: null,
@@ -788,6 +866,7 @@ const RosterWwe2k24 = [
         name: 'Damian Priest',
         media: '86',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -798,6 +877,7 @@ const RosterWwe2k24 = [
         name: 'Damon Kemp',
         media: '68',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: 'Pat Mcafee Pack',
@@ -808,6 +888,18 @@ const RosterWwe2k24 = [
         name: 'Darius Butler',
         media: '78',
         weight: 'Cruserweight',
+        tags: []
+    },
+    {
+        dlc: 'WCW Pack',
+        cardPerson: false,
+        category: 'Technician',
+        gender: 'Male',
+        image: './Images/RosterWwe2k24/ddp.webp',
+        name: 'DDP',
+        media: '88',
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -818,6 +910,7 @@ const RosterWwe2k24 = [
         name: 'Dexter Lumis',
         media: '66',
         weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -828,6 +921,7 @@ const RosterWwe2k24 = [
         category: 'Powerhouse',
         media: '87',
         weight: 'Super Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -838,6 +932,7 @@ const RosterWwe2k24 = [
         category: 'Powerhouse',
         media: '77',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -848,6 +943,7 @@ const RosterWwe2k24 = [
         category: 'Striker',
         media: '83',
         weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -858,6 +954,7 @@ const RosterWwe2k24 = [
         category: 'Striker',
         media: '83',
         weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -868,6 +965,7 @@ const RosterWwe2k24 = [
         category: 'Technician',
         media: '74',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: 'Global Superstars Pack',
@@ -878,6 +976,7 @@ const RosterWwe2k24 = [
         category: 'High Flyer',
         media: '77',
         weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -888,6 +987,7 @@ const RosterWwe2k24 = [
         category: 'Technician',
         media: '70',
         weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -898,6 +998,7 @@ const RosterWwe2k24 = [
         category: 'Powerhouse',
         media: '89',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -908,6 +1009,7 @@ const RosterWwe2k24 = [
         category: 'Powerhouse',
         media: '81',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -918,6 +1020,7 @@ const RosterWwe2k24 = [
         category: 'Powerhouse',
         media: '71',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: 'Nightmare Family Pack',
@@ -928,6 +1031,7 @@ const RosterWwe2k24 = [
         category: 'Technician',
         media: '91',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -937,7 +1041,8 @@ const RosterWwe2k24 = [
         name: 'Eddie Guerrero',
         category: 'Technician',
         media: '90',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -947,7 +1052,8 @@ const RosterWwe2k24 = [
         name: 'Eddie Guerrero 1997',
         category: 'High Flyer',
         media: '76',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -957,7 +1063,8 @@ const RosterWwe2k24 = [
         name: 'Elton Prince',
         category: 'Technician',
         media: '76',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -967,7 +1074,8 @@ const RosterWwe2k24 = [
         name: 'Eric Bischoff',
         category: 'Striker',
         media: '58',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -977,7 +1085,8 @@ const RosterWwe2k24 = [
         name: 'Erik',
         category: 'Striker',
         media: '78',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -987,7 +1096,8 @@ const RosterWwe2k24 = [
         name: 'Eve Torres',
         category: 'Striker',
         media: '85',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -997,7 +1107,8 @@ const RosterWwe2k24 = [
         name: 'Faarooq',
         category: 'Powerhouse',
         media: '85',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1007,7 +1118,8 @@ const RosterWwe2k24 = [
         name: 'Fallon Henley',
         category: 'Striker',
         media: '66',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1017,7 +1129,8 @@ const RosterWwe2k24 = [
         name: 'The Fiend Bray Wyatt',
         category: 'Powerhouse',
         media: '92',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: 'Bray Wyatt Edition Pack',
@@ -1027,7 +1140,8 @@ const RosterWwe2k24 = [
         name: 'The Fiend Bray Wyatt 2023',
         category: 'Powerhouse',
         media: '94',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1037,7 +1151,8 @@ const RosterWwe2k24 = [
         name: 'Finn Bálor',
         category: 'Striker',
         media: '87',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1047,7 +1162,8 @@ const RosterWwe2k24 = [
         name: 'George "The Animal" Steele',
         category: 'Powerhouse',
         media: '79',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1057,7 +1173,8 @@ const RosterWwe2k24 = [
         name: 'Gigi Dolin',
         category: 'Striker',
         media: '74',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1067,7 +1184,8 @@ const RosterWwe2k24 = [
         name: 'Giovanni Vinci',
         category: 'Technician',
         media: '72',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1077,7 +1195,19 @@ const RosterWwe2k24 = [
         name: 'Grayson Waller',
         category: 'Striker',
         media: '74',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
+    },
+    {
+        dlc: 'WCW Pack',
+        cardPerson: false,
+        category: 'Striker',
+        gender: 'Male',
+        image: './Images/RosterWwe2k24/theGreatMuta.webp',
+        name: 'The Great Muta',
+        media: '86',
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1087,7 +1217,8 @@ const RosterWwe2k24 = [
         name: 'Gunther',
         category: 'Powerhouse',
         media: '90',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1097,7 +1228,8 @@ const RosterWwe2k24 = [
         name: 'Harley Race',
         category: 'Technician',
         media: '84',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1107,7 +1239,8 @@ const RosterWwe2k24 = [
         name: 'Hollywood Hogan',
         category: 'Powerhouse',
         media: '92',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: 'Pat Mcafee Pack',
@@ -1117,7 +1250,8 @@ const RosterWwe2k24 = [
         name: 'Honky Tonk Man',
         category: 'Technician',
         media: '81',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1127,7 +1261,8 @@ const RosterWwe2k24 = [
         name: 'Hulk Hogan',
         category: 'Powerhouse',
         media: '94',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1137,7 +1272,8 @@ const RosterWwe2k24 = [
         name: 'Hulk Hogan "Élite"',
         category: 'Powerhouse',
         media: '94',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1147,7 +1283,8 @@ const RosterWwe2k24 = [
         name: 'Hulk Hogan "Ichiban"',
         category: 'Powerhouse',
         media: '94',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1157,7 +1294,8 @@ const RosterWwe2k24 = [
         name: 'Hulk Hogan 2002',
         category: 'Powerhouse',
         media: '89',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1167,7 +1305,8 @@ const RosterWwe2k24 = [
         name: 'Humberto Carrillo',
         category: 'High Flyer',
         media: '65',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1177,7 +1316,8 @@ const RosterWwe2k24 = [
         name: 'The Hurricane',
         category: 'Technician',
         media: '75',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1187,7 +1327,8 @@ const RosterWwe2k24 = [
         name: 'Ilja Dragunov',
         category: 'Striker',
         media: '81',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1197,7 +1338,19 @@ const RosterWwe2k24 = [
         name: 'Indi Hartwell',
         category: 'Striker',
         media: '63',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
+    },
+    {
+        dlc: 'WCW Pack',
+        cardPerson: false,
+        category: 'Technician',
+        gender: 'Male',
+        image: './Images/RosterWwe2k24/theIronSheik.webp',
+        name: 'The Iron Sheik',
+        media: '85',
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1207,7 +1360,8 @@ const RosterWwe2k24 = [
         name: 'Isla Dawn',
         category: 'Striker',
         media: '74',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1217,7 +1371,8 @@ const RosterWwe2k24 = [
         name: 'Ivar',
         category: 'Powerhouse',
         media: '79',
-        weight: 'Super Heavyweight'
+        weight: 'Super Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1227,7 +1382,8 @@ const RosterWwe2k24 = [
         name: 'Ivy Nile',
         category: 'Powerhouse',
         media: '73',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1237,7 +1393,8 @@ const RosterWwe2k24 = [
         name: 'Iyo Sky',
         category: 'High Flyer',
         media: '88',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1247,7 +1404,8 @@ const RosterWwe2k24 = [
         name: 'Jacy Jayne',
         category: 'Striker',
         media: '73',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: 'Global Superstars Pack',
@@ -1257,7 +1415,8 @@ const RosterWwe2k24 = [
         name: 'Jade Cargill',
         category: 'Powerhouse',
         media: '85',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1267,7 +1426,8 @@ const RosterWwe2k24 = [
         name: 'Jake "The Snake" Roberts',
         category: 'Striker',
         media: '85',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1277,7 +1437,8 @@ const RosterWwe2k24 = [
         name: 'JBL',
         category: 'Powerhouse',
         media: '89',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1287,7 +1448,8 @@ const RosterWwe2k24 = [
         name: 'JD McDonagh',
         category: 'Technician',
         media: '71',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1297,7 +1459,8 @@ const RosterWwe2k24 = [
         name: 'Jean-Paul Levesque',
         category: 'Powerhouse',
         media: '87',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1307,7 +1470,8 @@ const RosterWwe2k24 = [
         name: 'Jerry "The King" Lawler',
         category: 'Striker',
         media: '86',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1317,7 +1481,8 @@ const RosterWwe2k24 = [
         name: 'Jey Uso',
         category: 'Striker',
         media: '90',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1327,7 +1492,8 @@ const RosterWwe2k24 = [
         name: 'Jim "The Anvil" Neidhart',
         category: 'Powerhouse',
         media: '80',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1337,7 +1503,8 @@ const RosterWwe2k24 = [
         name: 'Jimmy Uso',
         category: 'Striker',
         media: '84',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1347,7 +1514,8 @@ const RosterWwe2k24 = [
         name: 'Jinder Mahal',
         category: 'Striker',
         media: '74',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1357,7 +1525,8 @@ const RosterWwe2k24 = [
         name: 'Joaquin Wilde',
         category: 'High Flyer',
         media: '68',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1367,7 +1536,8 @@ const RosterWwe2k24 = [
         name: 'Joe Coffey',
         category: 'Technician',
         media: '76',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1377,7 +1547,8 @@ const RosterWwe2k24 = [
         name: 'Joe Gacy',
         category: 'Striker',
         media: '73',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1387,7 +1558,8 @@ const RosterWwe2k24 = [
         name: 'John Cena',
         category: 'Powerhouse',
         media: '94',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1397,7 +1569,8 @@ const RosterWwe2k24 = [
         name: 'John Cena "Élite"',
         category: 'Powerhouse',
         media: '94',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1407,7 +1580,8 @@ const RosterWwe2k24 = [
         name: 'John Cena (The Prototype)',
         category: 'Powerhouse',
         media: '92',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1417,7 +1591,8 @@ const RosterWwe2k24 = [
         name: 'John Cena 2002',
         category: 'Powerhouse',
         media: '75',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1427,7 +1602,8 @@ const RosterWwe2k24 = [
         name: 'John Cena 2020',
         category: 'Powerhouse',
         media: '89',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1437,7 +1613,8 @@ const RosterWwe2k24 = [
         name: 'John Cena 2020 (DOC)',
         category: 'Powerhouse',
         media: '86',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1447,7 +1624,8 @@ const RosterWwe2k24 = [
         name: 'John Cena 2020 (nWo)',
         category: 'Powerhouse',
         media: '91',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1457,7 +1635,8 @@ const RosterWwe2k24 = [
         name: 'John Cena 2020 (SNME)',
         category: 'Powerhouse',
         media: '85',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1467,7 +1646,8 @@ const RosterWwe2k24 = [
         name: 'John Cena 2020 (WM30)',
         category: 'Powerhouse',
         media: '89',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1477,7 +1657,8 @@ const RosterWwe2k24 = [
         name: 'Johnny Gargano',
         category: 'Technician',
         media: '74',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1487,7 +1668,8 @@ const RosterWwe2k24 = [
         name: 'Josh Briggs',
         category: 'Powerhouse',
         media: '69',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1497,7 +1679,8 @@ const RosterWwe2k24 = [
         name: 'Juan Cena',
         category: 'Powerhouse',
         media: '96',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1507,7 +1690,8 @@ const RosterWwe2k24 = [
         name: 'Julius Creed',
         category: 'Powerhouse',
         media: '79',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: 'Global Superstars Pack',
@@ -1517,7 +1701,8 @@ const RosterWwe2k24 = [
         name: 'Kairi Sane',
         category: 'Striker',
         media: '78',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1527,7 +1712,8 @@ const RosterWwe2k24 = [
         name: 'Kane',
         category: 'Powerhouse',
         media: '79',
-        weight: 'Super Heavyweight'
+        weight: 'Super Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1537,7 +1723,8 @@ const RosterWwe2k24 = [
         name: 'Kane 2008',
         category: 'Powerhouse',
         media: '85',
-        weight: 'Super Heavyweight'
+        weight: 'Super Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1547,7 +1734,8 @@ const RosterWwe2k24 = [
         name: 'Karl Anderson',
         category: 'Striker',
         media: '72',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1557,7 +1745,8 @@ const RosterWwe2k24 = [
         name: 'Karrion Kross',
         category: 'Striker',
         media: '75',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1567,7 +1756,8 @@ const RosterWwe2k24 = [
         name: 'Katana Chance',
         category: 'High Flyer',
         media: '74',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1577,7 +1767,8 @@ const RosterWwe2k24 = [
         name: 'Kayden Carter',
         category: 'Technician',
         media: '74',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1587,7 +1778,8 @@ const RosterWwe2k24 = [
         name: 'Ken Shamrock',
         category: 'Striker',
         media: '86',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1597,7 +1789,8 @@ const RosterWwe2k24 = [
         name: 'Kevin Nash',
         category: 'Powerhouse',
         media: '88',
-        weight: 'Super Heavyweight'
+        weight: 'Super Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1607,7 +1800,8 @@ const RosterWwe2k24 = [
         name: 'Kevin Owens',
         category: 'Striker',
         media: '86',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1617,7 +1811,8 @@ const RosterWwe2k24 = [
         name: 'Kevin Owens (Stone Cold)',
         category: 'Striker',
         media: '86',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1628,6 +1823,7 @@ const RosterWwe2k24 = [
         name: 'King Booker T',
         media: '92',
         weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1637,7 +1833,8 @@ const RosterWwe2k24 = [
         name: 'Kit Wilson',
         category: 'Technician',
         media: '76',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1647,7 +1844,8 @@ const RosterWwe2k24 = [
         name: 'Kofi Kingston',
         category: 'Striker',
         media: '80',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1657,7 +1855,8 @@ const RosterWwe2k24 = [
         name: 'Kurt Angle',
         category: 'Technician',
         media: '89',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1667,7 +1866,19 @@ const RosterWwe2k24 = [
         name: 'LA Knight',
         category: 'Striker',
         media: '88',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
+    },
+    {
+        dlc: 'WCW Pack',
+        cardPerson: false,
+        category: 'Powerhouse',
+        gender: 'Male',
+        image: './Images/RosterWwe2k24/lexLuger.webp',
+        name: 'Lex Luger',
+        media: '87',
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1677,7 +1888,8 @@ const RosterWwe2k24 = [
         name: 'Lita',
         category: 'High Flyer',
         media: '86',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1687,7 +1899,8 @@ const RosterWwe2k24 = [
         name: 'Liv Morgan',
         category: 'Striker',
         media: '85',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1697,7 +1910,8 @@ const RosterWwe2k24 = [
         name: 'Logan Paul',
         category: 'Striker',
         media: '90',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1707,7 +1921,8 @@ const RosterWwe2k24 = [
         name: 'Ludwig Kaiser',
         category: 'Technician',
         media: '73',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1717,7 +1932,8 @@ const RosterWwe2k24 = [
         name: 'Luke Gallows',
         category: 'Powerhouse',
         media: '73',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: 'Global Superstars Pack',
@@ -1727,7 +1943,8 @@ const RosterWwe2k24 = [
         name: 'Lyra Valkyria',
         category: 'Striker',
         media: '80',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: '40 Years of WrestleMania Edition',
@@ -1737,7 +1954,8 @@ const RosterWwe2k24 = [
         name: '"Macho King" Randy Savage',
         category: 'High Flyer',
         media: '88',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1747,7 +1965,8 @@ const RosterWwe2k24 = [
         name: '"Macho Man" Randy Savage',
         category: 'High Flyer',
         media: '89',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1757,7 +1976,8 @@ const RosterWwe2k24 = [
         name: '"Macho Man" Randy Savage (SlimJim)',
         category: 'High Flyer',
         media: '89',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1767,7 +1987,8 @@ const RosterWwe2k24 = [
         name: 'Mankind',
         category: 'Powerhouse',
         media: '86',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1777,7 +1998,8 @@ const RosterWwe2k24 = [
         name: 'Mark Coffey',
         category: 'Technician',
         media: '74',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1787,7 +2009,8 @@ const RosterWwe2k24 = [
         name: 'Maryse',
         category: 'Striker',
         media: '79',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1797,7 +2020,8 @@ const RosterWwe2k24 = [
         name: 'Maxxine Dupri',
         category: 'Striker',
         media: '64',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: 'Global Superstars Pack',
@@ -1807,7 +2031,8 @@ const RosterWwe2k24 = [
         name: 'Michelle McCool',
         category: 'Technician',
         media: '85',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1817,7 +2042,8 @@ const RosterWwe2k24 = [
         name: 'Michin',
         category: 'Striker',
         media: '68',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1827,7 +2053,8 @@ const RosterWwe2k24 = [
         name: 'Michin (64 Bit)',
         category: 'Striker',
         media: '75',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1837,7 +2064,8 @@ const RosterWwe2k24 = [
         name: 'Mighty Molly',
         category: 'Technician',
         media: '75',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1847,7 +2075,8 @@ const RosterWwe2k24 = [
         name: 'The Miz',
         category: 'Striker',
         media: '81',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1857,7 +2086,8 @@ const RosterWwe2k24 = [
         name: 'Molly Holly',
         category: 'Technician',
         media: '83',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1867,7 +2097,8 @@ const RosterWwe2k24 = [
         name: 'Montez Ford',
         category: 'High Flyer',
         media: '76',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: 'Post Malone & Friends Pack',
@@ -1877,7 +2108,19 @@ const RosterWwe2k24 = [
         name: 'Mosh',
         category: 'Striker',
         media: '76',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
+    },
+    {
+        dlc: 'WCW Pack',
+        cardPerson: false,
+        category: 'Technician',
+        gender: 'Male',
+        image: './Images/RosterWwe2k24/mrPerfect.webp',
+        name: 'Mr. Perfect',
+        media: '84',
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1887,7 +2130,8 @@ const RosterWwe2k24 = [
         name: 'Muhammad Ali',
         category: 'Striker',
         media: '91',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1897,7 +2141,8 @@ const RosterWwe2k24 = [
         name: 'MVP',
         category: 'Striker',
         media: '68',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1907,7 +2152,8 @@ const RosterWwe2k24 = [
         name: 'Natalya',
         category: 'Technician',
         media: '81',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1917,7 +2163,8 @@ const RosterWwe2k24 = [
         name: 'Nathan Frazer',
         category: 'High Flyer',
         media: '75',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: 'Global Superstars Pack',
@@ -1927,7 +2174,8 @@ const RosterWwe2k24 = [
         name: 'Nia Jax',
         category: 'Powerhouse',
         media: '86',
-        weight: 'Super Heavyweight'
+        weight: 'Super Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1937,7 +2185,8 @@ const RosterWwe2k24 = [
         name: 'Nikki Cross',
         category: 'Striker',
         media: '62',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1947,7 +2196,8 @@ const RosterWwe2k24 = [
         name: 'Nikkita Lyons',
         category: 'Striker',
         media: '73',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1957,7 +2207,8 @@ const RosterWwe2k24 = [
         name: 'Noam Dar',
         category: 'Striker',
         media: '76',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1967,7 +2218,8 @@ const RosterWwe2k24 = [
         name: 'Omos',
         category: 'Powerhouse',
         media: '76',
-        weight: 'Super Heavyweight'
+        weight: 'Super Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1976,8 +2228,9 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/otis.webp',
         name: 'Otis',
         category: 'Powerhouse',
-        media: '73',
-        weight: 'Super Heavyweight'
+        media: '74',
+        weight: 'Super Heavyweight',
+        tags: []
     },
     {
         dlc: 'Pat Mcafee Pack',
@@ -1987,7 +2240,8 @@ const RosterWwe2k24 = [
         name: 'Pat McAfee',
         category: 'Striker',
         media: '80',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -1997,7 +2251,8 @@ const RosterWwe2k24 = [
         name: 'Piper Niven',
         category: 'Powerhouse',
         media: '79',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: 'Post Malone & Friends Pack',
@@ -2007,7 +2262,8 @@ const RosterWwe2k24 = [
         name: 'Post Malone',
         category: 'Technician',
         media: '69',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2017,7 +2273,8 @@ const RosterWwe2k24 = [
         name: 'R-Truth',
         category: 'Striker',
         media: '67',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2027,7 +2284,8 @@ const RosterWwe2k24 = [
         name: 'Randy Orton',
         category: 'Technician',
         media: '91',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2037,7 +2295,8 @@ const RosterWwe2k24 = [
         name: 'Randy Orton 2002',
         category: 'Technician',
         media: '68',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2047,7 +2306,8 @@ const RosterWwe2k24 = [
         name: 'Randy Orton 2009',
         category: 'Technician',
         media: '93',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2057,7 +2317,8 @@ const RosterWwe2k24 = [
         name: 'Randy Orton 2015',
         category: 'Technician',
         media: '90',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2067,7 +2328,8 @@ const RosterWwe2k24 = [
         name: 'Raquel Rodriguez',
         category: 'Powerhouse',
         media: '86',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2077,7 +2339,8 @@ const RosterWwe2k24 = [
         name: 'Raquel Rodriguez (DM)',
         category: 'Powerhouse',
         media: '84',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2087,7 +2350,8 @@ const RosterWwe2k24 = [
         name: '"Ravishing" Rick Rude',
         category: 'Technician',
         media: '84',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2097,7 +2361,8 @@ const RosterWwe2k24 = [
         name: 'Razor Ramon',
         category: 'Powerhouse',
         media: '87',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2107,7 +2372,8 @@ const RosterWwe2k24 = [
         name: 'Rey Mysterio',
         category: 'High Flyer',
         media: '88',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2117,7 +2383,8 @@ const RosterWwe2k24 = [
         name: 'Rey Mysterio Jr.',
         category: 'High Flyer',
         media: '74',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: '40 Years of WrestleMania Edition',
@@ -2127,7 +2394,8 @@ const RosterWwe2k24 = [
         name: 'Rey Mysterio 2006',
         category: 'High Flyer',
         media: '87',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2137,7 +2405,8 @@ const RosterWwe2k24 = [
         name: 'Rhea Ripley',
         category: 'Powerhouse',
         media: '96',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2147,7 +2416,8 @@ const RosterWwe2k24 = [
         name: 'Rhea Ripley 2023 (CrownJewel)',
         category: 'Powerhouse',
         media: '98',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2157,7 +2427,8 @@ const RosterWwe2k24 = [
         name: 'Rhea Ripley (HHH)',
         category: 'Powerhouse',
         media: '94',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: 'Deluxe Edition',
@@ -2167,7 +2438,8 @@ const RosterWwe2k24 = [
         name: 'Rhea Ripley 2017',
         category: 'Powerhouse',
         media: '72',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: '40 Years of WrestleMania Edition',
@@ -2177,7 +2449,8 @@ const RosterWwe2k24 = [
         name: 'Rhea Ripley 2020',
         category: 'Powerhouse',
         media: '80',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2187,7 +2460,8 @@ const RosterWwe2k24 = [
         name: 'Rick Steiner',
         category: 'Technician',
         media: '83',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2197,7 +2471,8 @@ const RosterWwe2k24 = [
         name: 'Ricky "The Dragon" Steamboat',
         category: 'High Flyer',
         media: '88',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2207,7 +2482,8 @@ const RosterWwe2k24 = [
         name: 'Ricochet',
         category: 'High Flyer',
         media: '81',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2217,7 +2493,8 @@ const RosterWwe2k24 = [
         name: 'Ridge Holland',
         category: 'Powerhouse',
         media: '76',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2227,7 +2504,8 @@ const RosterWwe2k24 = [
         name: 'Rikishi',
         category: 'Powerhouse',
         media: '79',
-        weight: 'Super Heavyweight'
+        weight: 'Super Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2237,7 +2515,8 @@ const RosterWwe2k24 = [
         name: 'Rob Van Dam',
         category: 'High Flyer',
         media: '90',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2247,7 +2526,8 @@ const RosterWwe2k24 = [
         name: 'Robert Roode',
         category: 'Technician',
         media: '67',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2257,7 +2537,8 @@ const RosterWwe2k24 = [
         name: 'The Rock',
         category: 'Powerhouse',
         media: '94',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2267,7 +2548,8 @@ const RosterWwe2k24 = [
         name: 'The Rock "Élite"',
         category: 'Powerhouse',
         media: '85',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2277,7 +2559,8 @@ const RosterWwe2k24 = [
         name: 'The Rock 2001',
         category: 'Striker',
         media: '96',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2287,7 +2570,8 @@ const RosterWwe2k24 = [
         name: 'The Rock 2004',
         category: 'Striker',
         media: '86',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2297,7 +2581,8 @@ const RosterWwe2k24 = [
         name: 'Roman Reigns',
         category: 'Powerhouse',
         media: '97',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2307,7 +2592,8 @@ const RosterWwe2k24 = [
         name: 'Roman Reigns (64 Bit)',
         category: 'Powerhouse',
         media: '76',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2317,7 +2603,8 @@ const RosterWwe2k24 = [
         name: 'Roman Reigns 2015',
         category: 'Powerhouse',
         media: '90',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2327,7 +2614,8 @@ const RosterWwe2k24 = [
         name: 'Roman Reigns 2024',
         category: 'Powerhouse',
         media: '85',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2337,7 +2625,8 @@ const RosterWwe2k24 = [
         name: 'Ronda Rousey',
         category: 'Striker',
         media: '91',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2347,7 +2636,8 @@ const RosterWwe2k24 = [
         name: '"Rowdy" Roddy Piper',
         category: 'Striker',
         media: '84',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2357,7 +2647,8 @@ const RosterWwe2k24 = [
         name: 'Roxanne Perez',
         category: 'Striker',
         media: '78',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2367,7 +2658,8 @@ const RosterWwe2k24 = [
         name: 'Sami Zayn',
         category: 'Technician',
         media: '87',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: 'ECW Punk Pack',
@@ -2377,7 +2669,8 @@ const RosterWwe2k24 = [
         name: 'The Sandman',
         category: 'Powerhouse',
         media: '86',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2387,7 +2680,8 @@ const RosterWwe2k24 = [
         name: 'Sanga',
         category: 'Powerhouse',
         media: '71',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2397,7 +2691,8 @@ const RosterWwe2k24 = [
         name: 'Santos Escobar',
         category: 'Technician',
         media: '78',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2407,7 +2702,8 @@ const RosterWwe2k24 = [
         name: 'Scarlett',
         category: 'Striker',
         media: '69',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2417,7 +2713,8 @@ const RosterWwe2k24 = [
         name: 'Scott Hall',
         category: 'Powerhouse',
         media: '87',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2427,7 +2724,8 @@ const RosterWwe2k24 = [
         name: 'Scott Steiner',
         category: 'Technician',
         media: '83',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2437,7 +2735,8 @@ const RosterWwe2k24 = [
         name: 'Scrypts',
         category: 'High Flyer',
         media: '61',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: 'Post Malone & Friends Pack',
@@ -2447,7 +2746,8 @@ const RosterWwe2k24 = [
         name: 'Sensational Sherri',
         category: 'Striker',
         media: '80',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2457,7 +2757,8 @@ const RosterWwe2k24 = [
         name: 'Seth "Freakin" Rollins',
         category: 'Technician',
         media: '93',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2467,7 +2768,8 @@ const RosterWwe2k24 = [
         name: 'Seth Rollins 2014',
         category: 'Striker',
         media: '81',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2477,7 +2779,8 @@ const RosterWwe2k24 = [
         name: 'Seth Rollins 2015',
         category: 'Striker',
         media: '89',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2487,7 +2790,8 @@ const RosterWwe2k24 = [
         name: 'Shane McMahon',
         category: 'Striker',
         media: '79',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2497,7 +2801,8 @@ const RosterWwe2k24 = [
         name: 'Shawn Michaels',
         category: 'Striker',
         media: '87',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2507,7 +2812,8 @@ const RosterWwe2k24 = [
         name: 'Shawn Michaels 1994',
         category: 'Striker',
         media: '85',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2517,7 +2823,8 @@ const RosterWwe2k24 = [
         name: 'Shawn Michaels 2005',
         category: 'Striker',
         media: '89',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2527,7 +2834,8 @@ const RosterWwe2k24 = [
         name: 'Shawn Michaels 2009',
         category: 'Striker',
         media: '93',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2537,7 +2845,8 @@ const RosterWwe2k24 = [
         name: 'Shayna Baszler',
         category: 'Striker',
         media: '82',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2547,7 +2856,8 @@ const RosterWwe2k24 = [
         name: 'Sheamus',
         category: 'Striker',
         media: '86',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2557,7 +2867,8 @@ const RosterWwe2k24 = [
         name: 'Sheamus 2009',
         category: 'Striker',
         media: '79',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2567,7 +2878,8 @@ const RosterWwe2k24 = [
         name: 'Shinsuke Nakamura',
         category: 'Striker',
         media: '84',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2577,7 +2889,8 @@ const RosterWwe2k24 = [
         name: 'Shotzi',
         category: 'Striker',
         media: '76',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2587,7 +2900,8 @@ const RosterWwe2k24 = [
         name: 'Solo Sikoa',
         category: 'Striker',
         media: '86',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2597,7 +2911,8 @@ const RosterWwe2k24 = [
         name: 'Sonya Deville',
         category: 'Striker',
         media: '74',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2607,7 +2922,8 @@ const RosterWwe2k24 = [
         name: 'Stacy Keibler',
         category: 'Striker',
         media: '75',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: 'Nightmare Family Pack',
@@ -2617,7 +2933,8 @@ const RosterWwe2k24 = [
         name: 'Stardust',
         category: 'Technician',
         media: '74',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2627,7 +2944,8 @@ const RosterWwe2k24 = [
         name: 'Stephanie McMahon',
         category: 'Striker',
         media: '75',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2637,7 +2955,8 @@ const RosterWwe2k24 = [
         name: 'Stone Cold Steve Austin',
         category: 'Striker',
         media: '86',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2647,7 +2966,8 @@ const RosterWwe2k24 = [
         name: 'Stone Cold Steve Austin 1997',
         category: 'Striker',
         media: '89',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2657,7 +2977,8 @@ const RosterWwe2k24 = [
         name: 'Stone Cold Steve Austin 2001',
         category: 'Striker',
         media: '96',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: 'Nightmare Family Pack',
@@ -2667,7 +2988,8 @@ const RosterWwe2k24 = [
         name: 'Superstar Billy Graham',
         category: 'Powerhouse',
         media: '92',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2677,7 +2999,8 @@ const RosterWwe2k24 = [
         name: 'Syxx',
         category: 'Striker',
         media: '76',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2687,7 +3010,8 @@ const RosterWwe2k24 = [
         name: 'Tamina',
         category: 'Powerhouse',
         media: '67',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2697,7 +3021,8 @@ const RosterWwe2k24 = [
         name: 'Ted DiBiase',
         category: 'Technician',
         media: '85',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2707,7 +3032,8 @@ const RosterWwe2k24 = [
         name: 'Tegan Nox',
         category: 'Striker',
         media: '77',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: 'ECW Punk Pack',
@@ -2717,7 +3043,8 @@ const RosterWwe2k24 = [
         name: 'Terry Funk',
         category: 'Technician',
         media: '87',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2727,7 +3054,8 @@ const RosterWwe2k24 = [
         name: 'Thea Hail',
         category: 'Striker',
         media: '72',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2737,7 +3065,8 @@ const RosterWwe2k24 = [
         name: 'Thrasher',
         category: 'Striker',
         media: '76',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2747,7 +3076,8 @@ const RosterWwe2k24 = [
         name: 'Tiffany Stratton',
         category: 'Striker',
         media: '79',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2757,7 +3087,8 @@ const RosterWwe2k24 = [
         name: 'Tommaso Ciampa',
         category: 'Striker',
         media: '76',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2767,7 +3098,8 @@ const RosterWwe2k24 = [
         name: 'Tony D\'Angelo',
         category: 'Technician',
         media: '75',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2777,7 +3109,8 @@ const RosterWwe2k24 = [
         name: 'Trick Williams',
         category: 'Striker',
         media: '78',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2787,7 +3120,8 @@ const RosterWwe2k24 = [
         name: 'Trick Williams 2022',
         category: 'Striker',
         media: '82',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2797,7 +3131,8 @@ const RosterWwe2k24 = [
         name: 'Triple H',
         category: 'Powerhouse',
         media: '91',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2807,7 +3142,8 @@ const RosterWwe2k24 = [
         name: 'Triple H (King Of Rings)',
         category: 'Powerhouse',
         media: '97',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2817,7 +3153,8 @@ const RosterWwe2k24 = [
         name: 'Triple H 2008',
         category: 'Powerhouse',
         media: '91',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: '40 Years of WrestleMania Edition',
@@ -2827,7 +3164,8 @@ const RosterWwe2k24 = [
         name: 'Triple H 2014',
         category: 'Powerhouse',
         media: '89',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2837,7 +3175,8 @@ const RosterWwe2k24 = [
         name: 'Trish Stratus',
         category: 'Striker',
         media: '89',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: 'Pat Mcafee Pack',
@@ -2847,7 +3186,8 @@ const RosterWwe2k24 = [
         name: 'Ty Schmit',
         category: 'Technician',
         media: '69',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2857,7 +3197,8 @@ const RosterWwe2k24 = [
         name: 'Tyler Bate',
         category: 'Technician',
         media: '76',
-        weight: 'Cruserweight'
+        weight: 'Cruserweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2867,7 +3208,8 @@ const RosterWwe2k24 = [
         name: 'Tyler Breeze',
         category: 'Striker',
         media: '75',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2877,7 +3219,8 @@ const RosterWwe2k24 = [
         name: 'Ultimate Warrior',
         category: 'Powerhouse',
         media: '92',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2887,7 +3230,8 @@ const RosterWwe2k24 = [
         name: 'Umaga',
         category: 'Powerhouse',
         media: '86',
-        weight: 'Super Heavyweight'
+        weight: 'Super Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2897,7 +3241,8 @@ const RosterWwe2k24 = [
         name: 'Uncle Howdy',
         category: 'Powerhouse',
         media: '82',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2907,7 +3252,8 @@ const RosterWwe2k24 = [
         name: 'Uncle Howdy 2024',
         category: 'Powerhouse',
         media: '87',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: 'Nightmare Family Pack',
@@ -2917,7 +3263,8 @@ const RosterWwe2k24 = [
         name: 'Undashing Cody Rhodes',
         category: 'Technician',
         media: '85',
-        weight: 'Light Heavyweight'
+        weight: 'Light Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2927,7 +3274,8 @@ const RosterWwe2k24 = [
         name: 'Undertaker',
         category: 'Striker',
         media: '95',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2937,7 +3285,8 @@ const RosterWwe2k24 = [
         name: 'Undertaker 1998',
         category: 'Striker',
         media: '93',
-        weight: 'Super Heavyweight'
+        weight: 'Super Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -2947,7 +3296,8 @@ const RosterWwe2k24 = [
         name: 'Undertaker 2003',
         category: 'Striker',
         media: '92',
-        weight: 'Heavyweight'
+        weight: 'Heavyweight',
+        tags: []
     },
     {
         dlc: null,
@@ -3138,7 +3488,8 @@ const RosterWwe2k24 = [
         category: 'Striker',
         media: '78',
         weight: 'Light Heavyweight'
-    }
+,
+tags: []    }
 ]
 
 export { RosterWwe2k24 }
