@@ -7,7 +7,7 @@ const renderDraftConfig = () => {
 
     return (
         <div className="flex justify-between mb-3">
-            <p className="flex mb-2">
+            <p>
                 <span className="font-light">Number of shows</span>
             </p>
             <input
@@ -24,9 +24,14 @@ const DraftSideMenu = () => {
     return (
         <SideMenu openMenu={context.showDraftMenu} onCloseMenu={() => context.setShowDraftMenu(false)} title={"Draft Menu"}>
             <div className="px-6 mb-6">
+                <button
+                    className="bg-violet-800 w-full py-2 font-bold rounded-bl-lg rounded-lg"
+                    onClick={() => context.setOpenModal(true)}>
+                    Add Custom Wrestler
+                </button>
                 {context.showCurrentRoster ? renderDraftConfig() : null}
                 <button
-                    className="bg-violet-500 w-full py-2 font-bold rounded-bl-lg rounded-lg"
+                    className="bg-violet-800 w-full py-2 font-bold rounded-bl-lg rounded-lg"
                     onClick={() => context.showCurrentRoster ? context.draft() : context.setShowCurrentRoster(true)}>
                     {context.showCurrentRoster ? 'Draft' : 'Reset Draft'}
                 </button>

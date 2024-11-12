@@ -6,6 +6,7 @@ const DraftVerseContext = createContext()
 const DraftVerseProvider = ({ children }) => {
     const [showDraftMenu, setShowDraftMenu] = useState(true);
     const [showCurrentRoster, setShowCurrentRoster] = useState(true);
+    const [openModal, setOpenModal] = useState(false);
     const [totalShows, setTotalShows] = useState(3);
     const [shows, setShows] = useState([]);
 
@@ -37,6 +38,7 @@ const DraftVerseProvider = ({ children }) => {
             {
                 showDraftMenu, setShowDraftMenu,
                 showCurrentRoster, setShowCurrentRoster,
+                openModal, setOpenModal,
                 totalShows, handleSetTotalShows,
                 RosterWwe2k24, draft,
                 shows

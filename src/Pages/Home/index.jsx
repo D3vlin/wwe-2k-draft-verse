@@ -2,6 +2,7 @@ import { useContext } from "react"
 import { DraftVerseContext } from "../../Context"
 import { Layout } from "../../Components/Layout"
 import { Card } from "../../Components/Card"
+import { Modal } from "../../Components/Modal"
 
 const Home = () => {
     const context = useContext(DraftVerseContext)
@@ -56,7 +57,10 @@ const Home = () => {
             </div>
             {context.showCurrentRoster ? renderCurrentRoster() : null}
             {!context.showCurrentRoster ? renderShows() : null}
-
+            {context.openModal && (
+                <Modal>
+                </Modal>
+            )}
         </Layout>
     )
 }
