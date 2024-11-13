@@ -3,16 +3,37 @@ import { DraftVerseContext } from "../../Context"
 import { Layout } from "../../Components/Layout"
 import { Card } from "../../Components/Card"
 import { Modal } from "../../Components/Modal"
+import { WrestlerForm } from "../../Components/WrestlerForm"
 
 const Home = () => {
     const context = useContext(DraftVerseContext)
 
     const renderCurrentRoster = () => {
         return (
-            <div className="flex flex-wrap items-center gap-2 w-full max-w-screen-xl h-[400px] max-h-[400px] overflow-y-scroll bg-slate-800 p-3 rounded-lg">
-                {
-                    context.RosterWwe2k24.map((wrestler, index) => <Card key={index} image={wrestler.image} media={wrestler.media} name={wrestler.name} widthClass={'w-[calc(100%/13)]'} />)
-                }
+            <div className=" mt-3 w-full max-w-screen-xl">
+                <div className="flex flex-col items-center justify-center w-full bg-slate-700">
+                    <h2 className="font-medium text-lg mb-4 mt-4">WWE 2K24 Current Roster: {context.RosterWwe2k24.length}</h2>
+                </div>
+                <div className="flex flex-wrap items-center gap-2 w-full h-[350px] overflow-y-scroll bg-slate-800 p-3 rounded-lg">
+                    {
+                        context.RosterWwe2k24.map((wrestler, index) => <Card key={index} image={wrestler.image} media={wrestler.media} name={wrestler.name} widthClass={'w-[calc(100%/13)]'} />)
+                    }
+                </div>
+            </div>
+        )
+    }
+
+    const renderCustomRoster = () => {
+        return (
+            <div className="mt-3 w-full max-w-screen-xl">
+                <div className="flex flex-col items-center justify-center w-full bg-slate-700">
+                    <h2 className="font-medium text-lg mb-4 mt-4">Your Custom Roster: {context.customRoster.length}</h2>
+                </div>
+                <div className="flex flex-wrap items-center gap-2 w-full h-[350px] overflow-y-scroll bg-slate-800 p-3 rounded-lg">
+                    {
+                        context.customRoster.map((wrestler, index) => <Card key={index} image={wrestler.image} media={wrestler.media} name={wrestler.name} widthClass={'w-[calc(100%/13)]'} />)
+                    }
+                </div>
             </div>
         )
     }
@@ -51,14 +72,15 @@ const Home = () => {
                     Open Draft Menu
                 </button>
             </div>
-            <div className="flex flex-col items-center justify-center relative w-80">
+            <div className="flex flex-col items-center justify-center w-full bg-slate-800">
                 <h1 className="font-medium text-xl mb-4 mt-4">WWE 2k Draft Verse</h1>
-                <h2 className="font-medium text-lg mb-4 mt-4">WWE 2K24 Current Roster: {context.RosterWwe2k24.length}</h2>
             </div>
             {context.showCurrentRoster ? renderCurrentRoster() : null}
+            {context.showCurrentRoster ? renderCustomRoster() : null}
             {!context.showCurrentRoster ? renderShows() : null}
             {context.openModal && (
                 <Modal>
+                    <WrestlerForm />
                 </Modal>
             )}
         </Layout>

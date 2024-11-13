@@ -7,13 +7,14 @@ const DraftVerseProvider = ({ children }) => {
     const [showDraftMenu, setShowDraftMenu] = useState(true);
     const [showCurrentRoster, setShowCurrentRoster] = useState(true);
     const [openModal, setOpenModal] = useState(false);
+    const [customRoster, setCustomRoster] = useState([]);
     const [totalShows, setTotalShows] = useState(3);
     const [shows, setShows] = useState([]);
 
     const handleSetTotalShows = (total) => (total > 18) ? setTotalShows(18) : (total < 1) ? setTotalShows(1) : setTotalShows(total)
 
     const draft = () => {
-        const copy = [...RosterWwe2k24]
+        const copy = [...RosterWwe2k24, ...customRoster]
         copy.sort(() => 0.5 - Math.random())
 
         const newShows = Array.from({ length: totalShows }, () => [])
@@ -39,6 +40,7 @@ const DraftVerseProvider = ({ children }) => {
                 showDraftMenu, setShowDraftMenu,
                 showCurrentRoster, setShowCurrentRoster,
                 openModal, setOpenModal,
+                customRoster, setCustomRoster,
                 totalShows, handleSetTotalShows,
                 RosterWwe2k24, draft,
                 shows
