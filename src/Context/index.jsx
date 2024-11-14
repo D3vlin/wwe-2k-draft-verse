@@ -4,6 +4,7 @@ import { RosterWwe2k24 } from "../LocalData/rosterWwe2k24"
 const DraftVerseContext = createContext()
 
 const DraftVerseProvider = ({ children }) => {
+    const [rosterWwe2k24, setRosterWwe2k24] = useState([...RosterWwe2k24])
     const [showDraftMenu, setShowDraftMenu] = useState(true);
     const [showCurrentRoster, setShowCurrentRoster] = useState(true);
     const [openModal, setOpenModal] = useState(false);
@@ -42,8 +43,8 @@ const DraftVerseProvider = ({ children }) => {
                 openModal, setOpenModal,
                 customRoster, setCustomRoster,
                 totalShows, handleSetTotalShows,
-                RosterWwe2k24, draft,
-                shows
+                rosterWwe2k24, setRosterWwe2k24,
+                draft, shows
             }
         }>
             {children}

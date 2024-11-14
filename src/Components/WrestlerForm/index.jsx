@@ -44,7 +44,8 @@ function WrestlerForm() {
             category: 'High Flyer',
             media: formData.get('media'),
             weight: 'Light Heavyweight',
-            tags: availableTags.filter(tag => tag.selected).map(tag => tag.tag)
+            tags: [...availableTags.filter(tag => tag.selected).map(tag => tag.tag), 'custom'],
+            available: true
         }
         context.setCustomRoster(currentRoster => [...currentRoster, customWrestler])
         context.setOpenModal(false)
