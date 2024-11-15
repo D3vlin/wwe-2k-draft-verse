@@ -6,7 +6,10 @@ const renderDraftConfig = () => {
     const context = useContext(DraftVerseContext)
 
     return (
-        <div>
+        <div className="flex flex-col">
+            <p className="mb-6">
+                <span className="font-bold">Filtered Roster {context.filteredRoster.length}</span>
+            </p>
             <button
                 className="bg-violet-800 w-full py-2 font-bold rounded-bl-lg rounded-lg mb-3"
                 onClick={() => context.setOpenModal(true)}>
@@ -17,8 +20,17 @@ const renderDraftConfig = () => {
                     <span className="font-light">Number of shows</span>
                 </p>
                 <input
-                    className="bg-slate-600 text-white font-bold text-center rounded-tl-lg rounded-tr-lg focus:outline-none"
+                    className="bg-slate-600 text-white font-bold text-center rounded-tl-lg rounded-tr-lg focus:outline-none w-1/3"
                     type="number" value={context.totalShows} min='1' max='18' onChange={(event) => context.handleSetTotalShows(event.target.value)}
+                />
+            </div>
+            <div className="flex justify-between mb-3">
+                <p>
+                    <span className="font-light">Wrestlers per show</span>
+                </p>
+                <input
+                    className="bg-slate-600 text-white font-bold text-center rounded-tl-lg rounded-tr-lg focus:outline-none w-1/3"
+                    type="number" value={context.wrestlersPerShow} min='10' onChange={(event) => context.handleSetWrestlersPerShow(event.target.value)}
                 />
             </div>
         </div>

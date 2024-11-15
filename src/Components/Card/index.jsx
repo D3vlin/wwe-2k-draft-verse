@@ -6,18 +6,20 @@ const Card = ({ image, media, name, widthClass, available, index, tags }) => {
     const context = useContext(DraftVerseContext)
 
     const handleAvailable = () => {
-        if (tags.includes('custom')) {
-            context.setCustomRoster((prevRoster) =>
-                prevRoster.map((wrestler, i) =>
-                    i === index ? { ...wrestler, available: !available } : wrestler
-                )
-            );
-        } else {
-            context.setRosterWwe2k24((prevRoster) =>
-                prevRoster.map((wrestler, i) =>
-                    i === index ? { ...wrestler, available: !available } : wrestler
-                )
-            );
+        if (context.showCurrentRoster) {
+            if (tags.includes('custom')) {
+                context.setCustomRoster((prevRoster) =>
+                    prevRoster.map((wrestler, i) =>
+                        i === index ? { ...wrestler, available: !available } : wrestler
+                    )
+                );
+            } else {
+                context.setRosterWwe2k24((prevRoster) =>
+                    prevRoster.map((wrestler, i) =>
+                        i === index ? { ...wrestler, available: !available } : wrestler
+                    )
+                );
+            }
         }
     }
 

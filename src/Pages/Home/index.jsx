@@ -53,7 +53,7 @@ const Home = () => {
                             </div>
                             <div className="flex flex-wrap items-center gap-1 h-[350px] max-h-[350px] overflow-y-scroll p-2 rounded-lg mb-3">
                                 {
-                                    show.map((wrestler, index) => <Card key={index} image={wrestler.image} media={wrestler.media} name={wrestler.name} widthClass={'w-[calc(100%/11)]'} />)
+                                    show.map((wrestler, index) => <Card key={index} image={wrestler.image} media={wrestler.media} name={wrestler.name} widthClass={'w-[calc(100%/11)]'} available={wrestler.available} index={index} tags={wrestler.tags}/>)
                                 }
                             </div>
                         </div>
