@@ -253,24 +253,24 @@ const RosterWwe2k24 = [
     },
     {
         dlc: null,
-        cardPerson: true,
-        category: 'Technician',
-        gender: 'Female',
-        image: './Images/RosterWwe2k24/beckyLynch18.webp',
-        name: 'Becky Lynch 2018',
-        media: '87',
-        weight: 'Light Heavyweight',
-        tags: [],
-        available: true
-    },
-    {
-        dlc: null,
         cardPerson: false,
         category: 'Technician',
         gender: 'Female',
         image: './Images/RosterWwe2k24/beckyLynch19.webp',
         name: 'Becky Lynch 2019',
         media: '90',
+        weight: 'Light Heavyweight',
+        tags: [],
+        available: true
+    },
+    {
+        dlc: null,
+        cardPerson: true,
+        category: 'Technician',
+        gender: 'Female',
+        image: './Images/RosterWwe2k24/beckyLynch18.webp',
+        name: 'Becky Lynch 2018',
+        media: '87',
         weight: 'Light Heavyweight',
         tags: [],
         available: true
@@ -726,7 +726,7 @@ const RosterWwe2k24 = [
         gender: 'Male',
         image: './Images/RosterWwe2k24/chadGable16.webp',
         name: 'Chad Gable 2016',
-        media: '86',
+        media: '80',
         weight: 'Cruserweight',
         tags: [],
         available: true
@@ -756,18 +756,6 @@ const RosterWwe2k24 = [
         available: true
     },
     {
-        dlc: '40 Years of WrestleMania Edition',
-        cardPerson: false,
-        category: 'Technician',
-        gender: 'Female',
-        image: './Images/RosterWwe2k24/charlotteFlair17.webp',
-        name: 'Charlotte Flair 2017',
-        media: '87',
-        weight: 'Heavyweight',
-        tags: [],
-        available: true
-    },
-    {
         dlc: null,
         cardPerson: false,
         category: 'Technician',
@@ -775,6 +763,18 @@ const RosterWwe2k24 = [
         image: './Images/RosterWwe2k24/charlotteFlair19.webp',
         name: 'Charlotte Flair 2019',
         media: '93',
+        weight: 'Heavyweight',
+        tags: [],
+        available: true
+    },
+    {
+        dlc: '40 Years of WrestleMania Edition',
+        cardPerson: false,
+        category: 'Technician',
+        gender: 'Female',
+        image: './Images/RosterWwe2k24/charlotteFlair17.webp',
+        name: 'Charlotte Flair 2017',
+        media: '87',
         weight: 'Heavyweight',
         tags: [],
         available: true
@@ -908,6 +908,18 @@ const RosterWwe2k24 = [
         name: 'Cruz Del Toro',
         media: '69',
         weight: 'Cruserweight',
+        tags: [],
+        available: true
+    },
+    {
+        dlc: null,
+        cardPerson: true,
+        category: 'Technician',
+        gender: 'Male',
+        image: './Images/RosterWwe2k24/curtHennig.webp',
+        name: 'Curt Hennig (Wolfpac)',
+        media: '84',
+        weight: 'Heavyweight',
         tags: [],
         available: true
     },
@@ -1351,6 +1363,18 @@ const RosterWwe2k24 = [
         name: 'Hollywood Hogan',
         category: 'Powerhouse',
         media: '92',
+        weight: 'Heavyweight',
+        tags: [],
+        available: true
+    },
+    {
+        dlc: null,
+        cardPerson: true,
+        gender: 'Male',
+        image: './Images/RosterWwe2k24/hollywoodHoganWolfpac.webp',
+        name: 'Hollywood Hogan (Wolfpac)',
+        category: 'Powerhouse',
+        media: '98',
         weight: 'Heavyweight',
         tags: [],
         available: true
@@ -2053,6 +2077,18 @@ const RosterWwe2k24 = [
     },
     {
         dlc: null,
+        cardPerson: true,
+        category: 'Powerhouse',
+        gender: 'Male',
+        image: './Images/RosterWwe2k24/lexLugerWolfpac.webp',
+        name: 'Lex Luger (Wolfpac)',
+        media: '87',
+        weight: 'Heavyweight',
+        tags: [],
+        available: true
+    },
+    {
+        dlc: null,
         cardPerson: false,
         gender: 'Female',
         image: './Images/RosterWwe2k24/lita.webp',
@@ -2151,8 +2187,8 @@ const RosterWwe2k24 = [
         dlc: null,
         cardPerson: true,
         gender: 'Male',
-        image: './Images/RosterWwe2k24/machoManRandySavageSlimJim.webp',
-        name: '"Macho Man" Randy Savage (SlimJim)',
+        image: './Images/RosterWwe2k24/machoManRandySavageWolfpac.webp',
+        name: '"Macho Man" Randy Savage (Wolfpac)',
         category: 'High Flyer',
         media: '89',
         weight: 'Light Heavyweight',
@@ -2497,24 +2533,24 @@ const RosterWwe2k24 = [
     },
     {
         dlc: null,
-        cardPerson: false,
-        gender: 'Male',
-        image: './Images/RosterWwe2k24/randyOrton02.webp',
-        name: 'Randy Orton 2002',
-        category: 'Technician',
-        media: '68',
-        weight: 'Heavyweight',
-        tags: [],
-        available: true
-    },
-    {
-        dlc: null,
         cardPerson: true,
         gender: 'Male',
         image: './Images/RosterWwe2k24/randyOrton09.webp',
         name: 'Randy Orton 2009',
         category: 'Technician',
         media: '93',
+        weight: 'Heavyweight',
+        tags: [],
+        available: true
+    },
+    {
+        dlc: null,
+        cardPerson: false,
+        gender: 'Male',
+        image: './Images/RosterWwe2k24/randyOrton02.webp',
+        name: 'Randy Orton 2002',
+        category: 'Technician',
+        media: '68',
         weight: 'Heavyweight',
         tags: [],
         available: true
@@ -3151,6 +3187,18 @@ const RosterWwe2k24 = [
         name: 'Shotzi',
         category: 'Striker',
         media: '76',
+        weight: 'Light Heavyweight',
+        tags: [],
+        available: true
+    },
+    {
+        dlc: null,
+        cardPerson: true,
+        gender: 'Male',
+        image: './Images/RosterWwe2k24/machoManRandySavageSlimJim.webp',
+        name: '"Slim Jim" Macho Man Randy Savage',
+        category: 'High Flyer',
+        media: '89',
         weight: 'Light Heavyweight',
         tags: [],
         available: true
