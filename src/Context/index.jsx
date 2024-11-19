@@ -70,6 +70,59 @@ const DraftVerseProvider = ({ children }) => {
 
     const getFilteredRoster = () => [...rosterWwe2k24, ...customRoster].filter(item => item.available === true)
 
+    const exportCustomRoster = () => {
+        const customRosterData = JSON.stringify(customRoster, null, 2);
+        const blob = new Blob([customRosterData], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "custom_roster.json";
+        a.click();
+
+        URL.revokeObjectURL(url);
+    }
+
+    const importCustomRoster = (event) => {
+        const file = event.target.files[0];
+
+        if (file && file.type === "application/json" || file.name.endsWith(".json")) {
+            const reader = new FileReader();
+
+            reader.onload = (e) => {
+                try {
+                    const importedData = JSON.parse(e.target.result);
+
+                    if (Array.isArray(importedData) && importedData.every(isValidWrestler)) {
+                        setCustomRoster(importedData)
+                    } else {
+                        alert("Invalid roster format.");
+                    }
+                } catch (error) {
+                    alert("Error reading the file.");
+                }
+            };
+
+            reader.readAsText(file);
+
+        } else {
+            alert("Please select a valid JSON file.");
+        }
+    }
+
+    const isValidWrestler = (wrestler) => {
+        return wrestler.hasOwnProperty('dlc') &&
+            wrestler.hasOwnProperty('cardPerson') &&
+            wrestler.hasOwnProperty('gender') &&
+            wrestler.hasOwnProperty('image') &&
+            wrestler.hasOwnProperty('name') &&
+            wrestler.hasOwnProperty('category') &&
+            wrestler.hasOwnProperty('media') &&
+            wrestler.hasOwnProperty('weight') &&
+            wrestler.hasOwnProperty('tags') &&
+            wrestler.hasOwnProperty('available');
+    }
+
     return (
         <DraftVerseContext.Provider value={
             {
@@ -80,7 +133,7 @@ const DraftVerseProvider = ({ children }) => {
                 totalShows, handleSetTotalShows,
                 wrestlersPerShow, handleSetWrestlersPerShow,
                 rosterWwe2k24, setRosterWwe2k24, filteredRoster,
-                draft, shows
+                draft, shows, exportCustomRoster, importCustomRoster
             }
         }>
             {children}
