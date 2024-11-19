@@ -23,8 +23,27 @@ const Card = ({ image, media, name, widthClass, available, index, tags }) => {
         }
     }
 
+    const renderDeleteBottom = () => {
+        if (tags.includes('custom')) {
+            return (
+                <figcaption
+                    className="absolute bottom-0 right-0 bg-red-600 rounded-lg text-white text-xs px-2 py-1 hidden group-hover:block"
+                    onClick={(event) => deleteWrestler(event)}>
+                    X
+                </figcaption>
+            )
+        }
+    }
+
+    const deleteWrestler = (event) => {
+        event.preventDefault();
+        context.setCustomRoster((currentRoster) => {
+            return currentRoster.filter((_, i) => i !== index)
+        })
+    }
+
     return (
-        <article className={`cursor-pointer rounded-lg text-black ${widthClass} bg-slate-800 transition-transform transform hover:scale-125 duration-300 ease-in-out hover:z-10 relative ${available ? '' : 'grayscale'}`} onClick={handleAvailable}>
+        <article className={`group cursor-pointer rounded-lg text-black ${widthClass} bg-slate-800 transition-transform transform hover:scale-125 duration-300 ease-in-out hover:z-10 relative ${available ? '' : 'grayscale'}`} onClick={handleAvailable}>
             <figure
                 className="relative w-full rounded-tl-lg rounded-tr-lg"
                 style={{
@@ -37,6 +56,7 @@ const Card = ({ image, media, name, widthClass, available, index, tags }) => {
                     src={image}
                 />
                 <figcaption className="absolute top-0 right-0 bg-slate-600 rounded-lg text-white text-xs px-0.5 py-0.5">{media}</figcaption>
+                {renderDeleteBottom()}
             </figure>
             <p className="flex items-center justify-center text-center bg-slate-200 rounded-bl-lg rounded-br-lg h-[30px]">
                 <span className="text-[9px] font-bold">{name}</span>
