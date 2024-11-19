@@ -1,15 +1,69 @@
-import { useContext } from "react"
+import { useContext, useEffect, useState } from "react"
 import { DraftVerseContext } from "../../Context"
 import { SideMenu } from "../SideMenu"
 
 const renderDraftConfig = () => {
     const context = useContext(DraftVerseContext)
 
+    const [includedTags, setIncludedTags] = useState([{ tag: 'Custom', selected: true }, { tag: 'Male', selected: true }, { tag: 'Female', selected: true }, { tag: 'Manager', selected: false }])
+    const [excludedTags, setExcludedTags] = useState(() => includedTags.map(tag => ({ ...tag, selected: !tag.selected })))
+
+    const handleIncludeTagClick = (index) => {
+        const updatedIncludeTags = includedTags.map((tag, i) => i === index ? { ...tag, selected: !tag.selected } : tag)
+        setIncludedTags(updatedIncludeTags)
+
+        setExcludedTags(prevExcludedTags => prevExcludedTags.map((tag, i) => i === index ? { ...tag, selected: !tag.selected } : tag))
+        if (updatedIncludeTags[index].selected) {
+        }
+    }
+
+    const handleExcludeTagClick = (index) => {
+        const updatedExcludeTags = excludedTags.map((tag, i) => i === index ? { ...tag, selected: !tag.selected } : tag)
+        setExcludedTags(updatedExcludeTags)
+
+        setIncludedTags(prevIncludedTags => prevIncludedTags.map((tag, i) => i === index ? { ...tag, selected: !tag.selected } : tag))
+        if (updatedExcludeTags[index].selected) {
+        }
+    }
+
+
+    useEffect(() => { updateRosterAvailability() }, [includedTags, excludedTags])
+
+    const updateRosterAvailability = () => {
+        const selectedTags = includedTags.filter(tag => tag.selected).map(tag => tag.tag)        
+        const excludedTagList = excludedTags.filter(tag => tag.selected).map(tag => tag.tag)
+        
+        context.setRosterWwe2k24(prevRoster => prevRoster.map(wrestler => {
+            const matchesGender = selectedTags.includes(wrestler.gender)            
+            const matchesTag = wrestler.tags.some(tag => selectedTags.includes(tag))
+            
+            const matchesExcludedGender = excludedTagList.includes(wrestler.gender)
+            const matchesExcludedTag = wrestler.tags.some(tag => excludedTagList.includes(tag))
+        
+            return {
+                ...wrestler,
+                available: (matchesGender || matchesTag) && !(matchesExcludedGender || matchesExcludedTag)
+            }
+        }))
+        
+        context.setCustomRoster(prevRoster => prevRoster.map(wrestler => {
+            const matchesGender = selectedTags.includes(wrestler.gender)            
+            const matchesTag = wrestler.tags.some(tag => selectedTags.includes(tag))
+            
+            const matchesExcludedGender = excludedTagList.includes(wrestler.gender)
+            const matchesExcludedTag = wrestler.tags.some(tag => excludedTagList.includes(tag))
+        
+            return {
+                ...wrestler,
+                available: (matchesGender || matchesTag) && !(matchesExcludedGender || matchesExcludedTag)
+            }
+        }))
+    }
+
+
+
     return (
         <div className="flex flex-col">
-            <p className="mb-6">
-                <span className="font-bold">Filtered Roster {context.filteredRoster.length}</span>
-            </p>
             <button
                 className="bg-violet-800 w-full py-2 font-bold rounded-bl-lg rounded-lg mb-3"
                 onClick={() => context.setOpenModal(true)}>
@@ -31,6 +85,59 @@ const renderDraftConfig = () => {
                     className="hidden"
                     type="file" id="file-input" accept=".json" onChange={(event) => context.importCustomRoster(event)} />
             </div>
+            <p className="mb-6">
+                <span className="font-bold">Tags Included</span>
+            </p>
+            <div className="flex flex-wrap justify-between gap-6 mb-6">
+                {
+                    includedTags.map((t, index) => {
+                        return (
+                            <div key={index}>
+                                <label
+                                    className={`${t.selected ? 'bg-violet-600' : 'bg-slate-600'} p-2 rounded-lg cursor-pointer`}
+                                    htmlFor={`includeTag-${index}`}>
+                                    {t.tag}
+                                </label>
+                                <input
+                                    type="checkbox"
+                                    checked={t.selected}
+                                    onChange={() => handleIncludeTagClick(index)}
+                                    id={`includeTag-${index}`}
+                                    className="hidden"
+                                />
+                            </div>
+                        )
+                    })
+                }
+            </div>
+            <p className="mb-6">
+                <span className="font-bold">Tags Excluded</span>
+            </p>
+            <div className="flex flex-wrap justify-between gap-6 mb-6">
+                {
+                    excludedTags.map((t, index) => {
+                        return (
+                            <div key={index}>
+                                <label
+                                    className={`${t.selected ? 'bg-violet-600' : 'bg-slate-600'} p-2 rounded-lg cursor-pointer`}
+                                    htmlFor={`excludeTag-${index}`}>
+                                    {t.tag}
+                                </label>
+                                <input
+                                    type="checkbox"
+                                    checked={t.selected}
+                                    onChange={() => handleExcludeTagClick(index)}
+                                    id={`excludeTag-${index}`}
+                                    className="hidden"
+                                />
+                            </div>
+                        )
+                    })
+                }
+            </div>
+            <p className="mb-6">
+                <span className="font-bold">Filtered Roster {context.filteredRoster.length}</span>
+            </p>
             <div className="flex justify-between mb-3">
                 <p>
                     <span className="font-light">Number of shows</span>

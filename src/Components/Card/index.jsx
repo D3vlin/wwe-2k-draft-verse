@@ -7,7 +7,7 @@ const Card = ({ image, media, name, widthClass, available, index, tags }) => {
 
     const handleAvailable = () => {
         if (context.showCurrentRoster) {
-            if (tags.includes('custom')) {
+            if (tags.includes('Custom')) {
                 context.setCustomRoster((prevRoster) =>
                     prevRoster.map((wrestler, i) =>
                         i === index ? { ...wrestler, available: !available } : wrestler
@@ -24,7 +24,7 @@ const Card = ({ image, media, name, widthClass, available, index, tags }) => {
     }
 
     const renderDeleteBottom = () => {
-        if (tags.includes('custom')) {
+        if (tags.includes('Custom')) {
             return (
                 <figcaption
                     className="absolute bottom-0 right-0 bg-red-600 rounded-lg text-white text-xs px-2 py-1 hidden group-hover:block"
