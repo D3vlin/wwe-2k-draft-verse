@@ -26,7 +26,7 @@ const DraftVerseProvider = ({ children }) => {
 
     useEffect(() => { setFilteredRoster(getFilteredRoster()) }, [rosterWwe2k24, customRoster])
 
-    const draft = () => {
+    const autoDraft = () => {
         if (validMemberPerShow()) {
             const filteredRoster = getFilteredRoster()
             filteredRoster.sort(() => 0.5 - Math.random())
@@ -34,8 +34,8 @@ const DraftVerseProvider = ({ children }) => {
             const newShows = Array.from({ length: totalShows }, () => [])
             let currentShowIndex = 0;
 
-            for (const wrestler of filteredRoster) {
-                if (newShows.every(show => show.length >= wrestlersPerShow)) break;
+            while (filteredRoster.length > 0 && newShows.some(show => show.length < wrestlersPerShow)) {
+                const wrestler = filteredRoster.shift();
 
                 if (newShows[currentShowIndex].length < wrestlersPerShow) {
                     newShows[currentShowIndex].push(wrestler);
@@ -44,6 +44,8 @@ const DraftVerseProvider = ({ children }) => {
                     if (currentShowIndex >= totalShows) currentShowIndex = 0;
                     newShows[currentShowIndex].push(wrestler);
                 }
+                
+                setFilteredRoster(filteredRoster)
             }
 
             newShows.forEach(show => show.sort((a, b) => {
@@ -52,9 +54,29 @@ const DraftVerseProvider = ({ children }) => {
                 return nameA.localeCompare(nameB)
             }))
 
+            setFilteredRoster(filteredRoster.sort((a, b) => {
+                const nameA = a.name.replace(/["']/g, "")
+                const nameB = b.name.replace(/["']/g, "")
+                return nameA.localeCompare(nameB);
+            }))
+            
             setShows(newShows)
             setShowCurrentRoster(false)
         }
+    }
+
+    const manualDraft = () => {
+        const filteredRoster = getFilteredRoster()
+        const newShows = Array.from({ length: 2 }, () => [])
+
+        setFilteredRoster(filteredRoster.sort((a, b) => {
+            const nameA = a.name.replace(/["']/g, "")
+            const nameB = b.name.replace(/["']/g, "")
+            return nameA.localeCompare(nameB);
+        }))
+
+        setShows(newShows)
+        setShowCurrentRoster(false)
     }
 
     const validMemberPerShow = (members = wrestlersPerShow, shows = totalShows) => {
@@ -133,7 +155,8 @@ const DraftVerseProvider = ({ children }) => {
                 totalShows, handleSetTotalShows,
                 wrestlersPerShow, handleSetWrestlersPerShow,
                 rosterWwe2k24, setRosterWwe2k24, filteredRoster,
-                draft, shows, exportCustomRoster, importCustomRoster
+                autoDraft, manualDraft, shows,
+                exportCustomRoster, importCustomRoster
             }
         }>
             {children}

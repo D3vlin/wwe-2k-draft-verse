@@ -165,12 +165,27 @@ const DraftSideMenu = () => {
 
     return (
         <SideMenu openMenu={context.showDraftMenu} onCloseMenu={() => context.setShowDraftMenu(false)} title={"Draft Menu"}>
-            <div className="px-6 mb-6">
+            <div className="flex flex-col gap-3 px-6 mb-6">
                 {context.showCurrentRoster ? renderDraftConfig() : null}
                 <button
-                    className="bg-violet-800 w-full py-2 font-bold rounded-bl-lg rounded-lg"
-                    onClick={() => context.showCurrentRoster ? context.draft() : context.setShowCurrentRoster(true)}>
-                    {context.showCurrentRoster ? 'Draft' : 'Reset Draft'}
+                    className={`${context.showCurrentRoster ? '' : 'hidden'} bg-violet-800 w-full py-2 font-bold rounded-bl-lg rounded-lg`}
+                    onClick={() => context.autoDraft()}>
+                    Auto Draft
+                </button>
+                <button
+                    className={`${context.showCurrentRoster ? '' : 'hidden'} bg-violet-800 w-full py-2 font-bold rounded-bl-lg rounded-lg`}
+                    onClick={() => context.manualDraft()}>
+                    Manual Draft
+                </button>
+                <button
+                    className={`${context.showCurrentRoster ? 'hidden' : ''} bg-violet-800 w-full py-2 font-bold rounded-bl-lg rounded-lg`}
+                    onClick={() => context.manualDraft()}>
+                    Add Show
+                </button>
+                <button
+                    className={`${context.showCurrentRoster ? 'hidden' : ''} bg-violet-800 w-full py-2 font-bold rounded-bl-lg rounded-lg`}
+                    onClick={() => context.setShowCurrentRoster(true)}>
+                    Reset Draft
                 </button>
             </div>
         </SideMenu>

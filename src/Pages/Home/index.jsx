@@ -29,9 +29,19 @@ const Home = () => {
         )
     }
 
+    const renderFilteredRoster = () => {
+        return (
+            <RosterContainer title={`Your Available Roster: ${context.filteredRoster.length}`}>
+                {
+                    context.filteredRoster.map((wrestler, index) => <Card key={index} image={wrestler.image} media={wrestler.media} name={wrestler.name} widthClass={'w-[calc(100%/13)]'} available={wrestler.available} index={index} tags={wrestler.tags} />)
+                }
+            </RosterContainer>
+        )
+    }
+
     const renderShows = () => {
         return (
-            <div className="grid grid-cols-2 w-full gap-2 max-w-screen-xl mb-3">
+            <div className="grid grid-cols-2 w-full gap-2 max-w-screen-xl mt-6">
                 {
                     context.shows.map((show, index) => (
                         <div key={index} className="flex flex-col bg-slate-800 rounded-lg mb-6">
@@ -68,6 +78,7 @@ const Home = () => {
             </div>
             {context.showCurrentRoster ? renderCurrentRoster() : null}
             {context.showCurrentRoster ? renderCustomRoster() : null}
+            {!context.showCurrentRoster ? renderFilteredRoster() : null}
             {!context.showCurrentRoster ? renderShows() : null}
             <div className="absolute top-3 right-10">
                 <a href="https://github.com/D3vlin/wwe-2k-draft-verse" target="_blank" rel="noopener noreferrer">
