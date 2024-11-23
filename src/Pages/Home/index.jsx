@@ -3,6 +3,7 @@ import { DraftVerseContext } from "../../Context"
 import { Layout } from "../../Components/Layout"
 import { Card } from "../../Components/Card"
 import { Modal } from "../../Components/Modal"
+import { RosterContainer } from "../../Components/RosterContainer"
 import { WrestlerForm } from "../../Components/WrestlerForm"
 
 const Home = () => {
@@ -10,31 +11,21 @@ const Home = () => {
 
     const renderCurrentRoster = () => {
         return (
-            <div className=" mt-3 w-full max-w-screen-xl">
-                <div className="flex flex-col items-center justify-center w-full bg-slate-700">
-                    <h2 className="font-medium text-lg mb-4 mt-4">WWE 2K24 Current Roster: {context.rosterWwe2k24.length}</h2>
-                </div>
-                <div className="flex flex-wrap items-center gap-2 w-full h-[350px] overflow-y-scroll bg-slate-800 p-3 rounded-lg">
-                    {
-                        context.rosterWwe2k24.map((wrestler, index) => <Card key={index} image={wrestler.image} media={wrestler.media} name={wrestler.name} widthClass={'w-[calc(100%/13)]'} available={wrestler.available} index={index} tags={wrestler.tags} />)
-                    }
-                </div>
-            </div>
+            <RosterContainer title={`WWE 2K24 Current Roster: ${context.rosterWwe2k24.length}`}>
+                {
+                    context.rosterWwe2k24.map((wrestler, index) => <Card key={index} image={wrestler.image} media={wrestler.media} name={wrestler.name} widthClass={'w-[calc(100%/13)]'} available={wrestler.available} index={index} tags={wrestler.tags} />)
+                }
+            </RosterContainer>
         )
     }
 
     const renderCustomRoster = () => {
         return (
-            <div className="mt-3 w-full max-w-screen-xl">
-                <div className="flex flex-col items-center justify-center w-full bg-slate-700">
-                    <h2 className="font-medium text-lg mb-4 mt-4">Your Custom Roster: {context.customRoster.length}</h2>
-                </div>
-                <div className="flex flex-wrap items-center gap-2 w-full h-[350px] overflow-y-scroll bg-slate-800 p-3 rounded-lg">
-                    {
-                        context.customRoster.map((wrestler, index) => <Card key={index} image={wrestler.image} media={wrestler.media} name={wrestler.name} widthClass={'w-[calc(100%/13)]'} available={wrestler.available} index={index} tags={wrestler.tags} />)
-                    }
-                </div>
-            </div>
+            <RosterContainer title={`Your Custom Roster: ${context.customRoster.length}`}>
+                {
+                    context.customRoster.map((wrestler, index) => <Card key={index} image={wrestler.image} media={wrestler.media} name={wrestler.name} widthClass={'w-[calc(100%/13)]'} available={wrestler.available} index={index} tags={wrestler.tags} />)
+                }
+            </RosterContainer>
         )
     }
 
@@ -78,9 +69,9 @@ const Home = () => {
             {context.showCurrentRoster ? renderCurrentRoster() : null}
             {context.showCurrentRoster ? renderCustomRoster() : null}
             {!context.showCurrentRoster ? renderShows() : null}
-            <div className="absolute bottom-10 right-10">
+            <div className="absolute top-3 right-10">
                 <a href="https://github.com/D3vlin/wwe-2k-draft-verse" target="_blank" rel="noopener noreferrer">
-                    <img src="./Images/github.webp" alt="githubLogo" className="w-20 cursor-pointer hover:scale-125" />
+                    <img src="./Images/github.webp" alt="githubLogo" className="w-11 cursor-pointer hover:scale-125" />
                 </a>
             </div>
             {context.openModal && (
