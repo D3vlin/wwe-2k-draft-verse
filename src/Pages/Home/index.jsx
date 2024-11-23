@@ -53,7 +53,7 @@ const Home = () => {
                             </div>
                             <div className="flex flex-wrap items-center gap-1 h-[350px] max-h-[350px] overflow-y-scroll p-2 rounded-lg mb-3">
                                 {
-                                    show.map((wrestler, index) => <Card key={index} image={wrestler.image} media={wrestler.media} name={wrestler.name} widthClass={'w-[calc(100%/11)]'} available={wrestler.available} index={index} tags={wrestler.tags}/>)
+                                    show.map((wrestler, index) => <Card key={index} image={wrestler.image} media={wrestler.media} name={wrestler.name} widthClass={'w-[calc(100%/11)]'} available={wrestler.available} index={index} tags={wrestler.tags} />)
                                 }
                             </div>
                         </div>
@@ -78,6 +78,11 @@ const Home = () => {
             {context.showCurrentRoster ? renderCurrentRoster() : null}
             {context.showCurrentRoster ? renderCustomRoster() : null}
             {!context.showCurrentRoster ? renderShows() : null}
+            <div className="absolute bottom-10 right-10">
+                <a href="https://github.com/D3vlin/wwe-2k-draft-verse" target="_blank" rel="noopener noreferrer">
+                    <img src="./Images/github.webp" alt="githubLogo" className="w-20 cursor-pointer hover:scale-125" />
+                </a>
+            </div>
             {context.openModal && (
                 <Modal>
                     <WrestlerForm />
