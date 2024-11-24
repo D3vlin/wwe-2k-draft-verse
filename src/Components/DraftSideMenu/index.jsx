@@ -145,7 +145,7 @@ const DraftSideMenu = () => {
                     </p>
                     <input
                         className="bg-slate-600 text-white font-bold text-center rounded-tl-lg rounded-tr-lg focus:outline-none w-1/3"
-                        type="number" value={context.wrestlersPerShow} min='10' onChange={(event) => context.handleSetWrestlersPerShow(event.target.value)}
+                        id="wrestlers" type="number" value={context.wrestlersPerShow} min='10' onChange={(event) => context.handleSetWrestlersPerShow(event.target.value)}
                     />
                 </div>
             </div>

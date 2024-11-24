@@ -44,7 +44,7 @@ const Home = () => {
             <div className="grid grid-cols-2 w-full gap-2 max-w-screen-xl mt-6">
                 {
                     context.shows.map((show, index) => (
-                        <div key={index} className="flex flex-col bg-slate-800 rounded-lg mb-6">
+                        <div key={index} className="flex flex-col relative bg-slate-800 rounded-lg mb-6">
                             <div className="flex justify-between">
                                 <input
                                     className="w-1/2 text-black rounded-tl-lg rounded-tr-lg focus:outline-none"
@@ -57,6 +57,15 @@ const Home = () => {
                                     show.map((wrestler, index) => <Card key={index} image={wrestler.image} media={wrestler.media} name={wrestler.name} widthClass={'w-[calc(100%/11)]'} available={wrestler.available} index={index} tags={wrestler.tags} />)
                                 }
                             </div>
+                            {
+                                (context.activeShow != index) && (
+                                    <div
+                                        className="absolute inset-0 bg-gray-500 bg-opacity-50 cursor-pointer"
+                                        onClick={() => context.setActiveShow(index)}
+                                    ></div>
+                                )
+
+                            }
                         </div>
                     ))
                 }

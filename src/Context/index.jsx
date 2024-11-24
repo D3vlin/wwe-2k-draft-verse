@@ -14,6 +14,7 @@ const DraftVerseProvider = ({ children }) => {
     const [totalShows, setTotalShows] = useState(3)
     const [wrestlersPerShow, setWrestlersPerShow] = useState(10)
     const [shows, setShows] = useState([])
+    const [activeShow, setActiveShow] = useState(0)
 
     const handleSetTotalShows = (total) => {
         (total > 18) ? setTotalShows(18) : (total < 1) ? setTotalShows(1) : setTotalShows(total)
@@ -54,15 +55,8 @@ const DraftVerseProvider = ({ children }) => {
                 const nameB = b.name.replace(/^"/, "")
                 return nameA.localeCompare(nameB)
             }))
-
-            setFilteredRoster(filteredRoster.sort((a, b) => {
-                const nameA = a.name.replace(/["']/g, "")
-                const nameB = b.name.replace(/["']/g, "")
-                return nameA.localeCompare(nameB)
-            }))
             
-            setShows(newShows)
-            setShowCurrentRoster(false)
+            draft(filteredRoster, newShows)
         }
     }
 
@@ -70,13 +64,18 @@ const DraftVerseProvider = ({ children }) => {
         const filteredRoster = getFilteredRoster()
         const newShows = Array.from({ length: 2 }, () => [])
 
-        setFilteredRoster(filteredRoster.sort((a, b) => {
+        draft(filteredRoster, newShows)
+    }
+
+    const draft = (roster, newShows) => {
+        setFilteredRoster(roster.sort((a, b) => {
             const nameA = a.name.replace(/["']/g, "")
             const nameB = b.name.replace(/["']/g, "")
             return nameA.localeCompare(nameB)
         }))
 
         setShows(newShows)
+        setActiveShow(0)
         setShowCurrentRoster(false)
     }
 
@@ -159,7 +158,8 @@ const DraftVerseProvider = ({ children }) => {
                 wrestlersPerShow, handleSetWrestlersPerShow,
                 rosterWwe2k24, setRosterWwe2k24, filteredRoster,
                 autoDraft, manualDraft, shows,
-                exportCustomRoster, importCustomRoster
+                exportCustomRoster, importCustomRoster,
+                activeShow, setActiveShow
             }
         }>
             {children}
