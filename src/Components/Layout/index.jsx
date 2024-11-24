@@ -1,3 +1,4 @@
+/* eslint react/prop-types: "off" */
 import { DraftSideMenu } from "../DraftSideMenu"
 
 const Layout = ({children}) => {

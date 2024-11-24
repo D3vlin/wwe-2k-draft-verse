@@ -1,5 +1,4 @@
 import './styles.css'
-import React from "react"
 import ReactDOM from "react-dom"
 
 function Modal({children}) {
@@ -8,7 +7,7 @@ function Modal({children}) {
             {children}
         </div>,
         document.getElementById("modal")
-    );
+    )
 }
 
-export {Modal};
+export {Modal}

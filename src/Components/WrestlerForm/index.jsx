@@ -1,9 +1,8 @@
-import React from "react";
-import { useContext, useRef, useState } from "react";
-import { DraftVerseContext } from "../../Context";
+import { useContext, useRef, useState } from "react"
+import { DraftVerseContext } from "../../Context"
 
 function WrestlerForm() {
-    const context = useContext(DraftVerseContext);
+    const context = useContext(DraftVerseContext)
     const genders = ['Male', 'Female']
 
     const [availableTags, setAvailableTags] = useState([{ tag: 'Manager', selected: false }])
@@ -13,25 +12,25 @@ function WrestlerForm() {
     const form = useRef(null)
 
     const handleTagClick = (index) => {
-        const updatedTags = availableTags.map((tag, i) => (i === index) ? { ...tag, selected: !tag.selected } : tag);
-        setAvailableTags(updatedTags);
-    };
+        const updatedTags = availableTags.map((tag, i) => (i === index) ? { ...tag, selected: !tag.selected } : tag)
+        setAvailableTags(updatedTags)
+    }
 
     const handleImageChange = (event) => {
-        const file = event.target.files[0];
+        const file = event.target.files[0]
         if (file) {
-            const reader = new FileReader();
+            const reader = new FileReader()
 
             reader.onload = (e) => {
-                setImageBase64(e.target.result);
-            };
+                setImageBase64(e.target.result)
+            }
 
-            reader.readAsDataURL(file);
+            reader.readAsDataURL(file)
         }
-    };
+    }
 
     const onSubmit = (event) => {
-        event.preventDefault();
+        event.preventDefault()
 
         const formData = new FormData(form.current)
 
@@ -49,7 +48,7 @@ function WrestlerForm() {
         }
         context.setCustomRoster(currentRoster => [...currentRoster, customWrestler])
         context.setOpenModal(false)
-    };
+    }
 
     return (
         <form ref={form} className="flex flex-col gap-2 bg-slate-400 p-3 rounded-lg" onSubmit={onSubmit}>
@@ -135,7 +134,7 @@ function WrestlerForm() {
                 </button>
             </div>
         </form>
-    );
+    )
 }
 
-export { WrestlerForm };
+export { WrestlerForm }

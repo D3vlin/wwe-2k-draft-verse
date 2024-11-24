@@ -1,3 +1,4 @@
+/* eslint react/prop-types: "off" */
 import './styles.css'
 
 const SideMenu = ({ children, openMenu, onCloseMenu, title }) => {

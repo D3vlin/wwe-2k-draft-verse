@@ -1,3 +1,4 @@
+/* eslint react/prop-types: "off" */
 import { useState } from "react"
 import { MinusCircleIcon, PlusCircleIcon } from "@heroicons/react/24/outline"
 

@@ -1,3 +1,4 @@
+/* eslint react/prop-types: "off" */
 import { useContext } from "react"
 import { DraftVerseContext } from "../../Context"
 
@@ -12,13 +13,13 @@ const Card = ({ image, media, name, widthClass, available, index, tags }) => {
                     prevRoster.map((wrestler, i) =>
                         i === index ? { ...wrestler, available: !available } : wrestler
                     )
-                );
+                )
             } else {
                 context.setRosterWwe2k24((prevRoster) =>
                     prevRoster.map((wrestler, i) =>
                         i === index ? { ...wrestler, available: !available } : wrestler
                     )
-                );
+                )
             }
         }
     }
@@ -36,7 +37,7 @@ const Card = ({ image, media, name, widthClass, available, index, tags }) => {
     }
 
     const deleteWrestler = (event) => {
-        event.preventDefault();
+        event.preventDefault()
         context.setCustomRoster((currentRoster) => {
             return currentRoster.filter((_, i) => i !== index)
         })
