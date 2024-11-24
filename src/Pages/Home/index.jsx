@@ -13,7 +13,7 @@ const Home = () => {
         return (
             <RosterContainer title={`WWE 2K24 Current Roster: ${context.rosterWwe2k24.length}`}>
                 {
-                    context.rosterWwe2k24.map((wrestler, index) => <Card key={index} image={wrestler.image} media={wrestler.media} name={wrestler.name} widthClass={'w-[calc(100%/13)]'} available={wrestler.available} index={index} tags={wrestler.tags} />)
+                    context.rosterWwe2k24.map((wrestler, index) => <Card key={index} wrestler={wrestler} index={index} widthClass={'w-[calc(100%/13)]'} />)
                 }
             </RosterContainer>
         )
@@ -23,7 +23,7 @@ const Home = () => {
         return (
             <RosterContainer title={`Your Custom Roster: ${context.customRoster.length}`}>
                 {
-                    context.customRoster.map((wrestler, index) => <Card key={index} image={wrestler.image} media={wrestler.media} name={wrestler.name} widthClass={'w-[calc(100%/13)]'} available={wrestler.available} index={index} tags={wrestler.tags} />)
+                    context.customRoster.map((wrestler, index) => <Card key={index} wrestler={wrestler} index={index} widthClass={'w-[calc(100%/13)]'} />)
                 }
             </RosterContainer>
         )
@@ -33,7 +33,7 @@ const Home = () => {
         return (
             <RosterContainer title={`Your Available Roster: ${context.filteredRoster.length}`}>
                 {
-                    context.filteredRoster.map((wrestler, index) => <Card key={index} image={wrestler.image} media={wrestler.media} name={wrestler.name} widthClass={'w-[calc(100%/13)]'} available={wrestler.available} index={index} tags={wrestler.tags} />)
+                    context.filteredRoster.map((wrestler, index) => <Card key={index} wrestler={wrestler} index={index} widthClass={'w-[calc(100%/13)]'} />)
                 }
             </RosterContainer>
         )
@@ -54,7 +54,7 @@ const Home = () => {
                             </div>
                             <div className="flex flex-wrap items-center gap-1 h-[350px] max-h-[350px] overflow-y-scroll p-2 rounded-lg mb-3">
                                 {
-                                    show.map((wrestler, index) => <Card key={index} image={wrestler.image} media={wrestler.media} name={wrestler.name} widthClass={'w-[calc(100%/11)]'} available={wrestler.available} index={index} tags={wrestler.tags} />)
+                                    show.map((wrestler, index) => <Card key={index} wrestler={wrestler} index={index} widthClass={'w-[calc(100%/11)]'} />)
                                 }
                             </div>
                             {
@@ -64,7 +64,6 @@ const Home = () => {
                                         onClick={() => context.setActiveShow(index)}
                                     ></div>
                                 )
-
                             }
                         </div>
                     ))

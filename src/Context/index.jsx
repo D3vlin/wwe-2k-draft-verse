@@ -7,6 +7,8 @@ const DraftVerseContext = createContext()
 const DraftVerseProvider = ({ children }) => {
     const [rosterWwe2k24, setRosterWwe2k24] = useState([...RosterWwe2k24])
     const [showDraftMenu, setShowDraftMenu] = useState(true)
+    const [showWrestlerInfo, setShowWrestlerInfo] = useState(false)
+    const [wrestlerInfo, setWrestlerInfo] = useState({})
     const [showCurrentRoster, setShowCurrentRoster] = useState(true)
     const [openModal, setOpenModal] = useState(false)
     const [customRoster, setCustomRoster] = useState([])
@@ -76,7 +78,35 @@ const DraftVerseProvider = ({ children }) => {
 
         setShows(newShows)
         setActiveShow(0)
+        setShowWrestlerInfo(false)
+        setShowDraftMenu(false)
         setShowCurrentRoster(false)
+    }
+
+    const addShow = () => {
+        if (shows.length < 18) {
+            setShows([...shows, []])
+        } else {
+            alert("18 show limit reached!")
+        }
+    }
+
+    const sendToShow = () => {
+        const index = filteredRoster.findIndex(item => item.image === wrestlerInfo.image)
+
+        if (index !== -1) {
+            const [wrestler] = filteredRoster.splice(index, 1)
+            
+            setShows(prevShows => {
+                const updatedShows = [...prevShows]
+                updatedShows[activeShow] = [...updatedShows[activeShow], wrestler]
+                return updatedShows
+            })
+    
+            setFilteredRoster([...filteredRoster])
+        }
+
+        setShowWrestlerInfo(false)
     }
 
     const validMemberPerShow = (members = wrestlersPerShow, shows = totalShows) => {
@@ -133,7 +163,7 @@ const DraftVerseProvider = ({ children }) => {
     }
 
     const isValidWrestler = (wrestler) => {
-        const hasOwnProperty = Object.prototype.hasOwnProperty;
+        const hasOwnProperty = Object.prototype.hasOwnProperty
 
         return hasOwnProperty.call(wrestler,'dlc') &&
             hasOwnProperty.call(wrestler,'cardPerson') &&
@@ -152,6 +182,8 @@ const DraftVerseProvider = ({ children }) => {
             {
                 showDraftMenu, setShowDraftMenu,
                 showCurrentRoster, setShowCurrentRoster,
+                showWrestlerInfo, setShowWrestlerInfo,
+                wrestlerInfo, setWrestlerInfo,
                 openModal, setOpenModal,
                 customRoster, setCustomRoster,
                 totalShows, handleSetTotalShows,
@@ -159,7 +191,7 @@ const DraftVerseProvider = ({ children }) => {
                 rosterWwe2k24, setRosterWwe2k24, filteredRoster,
                 autoDraft, manualDraft, shows,
                 exportCustomRoster, importCustomRoster,
-                activeShow, setActiveShow
+                activeShow, setActiveShow, addShow, sendToShow
             }
         }>
             {children}

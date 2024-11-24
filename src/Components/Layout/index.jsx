@@ -1,5 +1,6 @@
 /* eslint react/prop-types: "off" */
 import { DraftSideMenu } from "../DraftSideMenu"
+import { WrestlerInfoSideMenu } from "../WrestlerInfoSideMenu"
 
 const Layout = ({children}) => {
 
@@ -7,6 +8,7 @@ const Layout = ({children}) => {
         <div className="flex flex-col items-center">
             {children}
             <DraftSideMenu />
+            <WrestlerInfoSideMenu />
         </div>
     )
 }

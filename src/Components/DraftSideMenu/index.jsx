@@ -7,7 +7,7 @@ const DraftSideMenu = () => {
     const [includedTags, setIncludedTags] = useState([{ tag: 'Custom', selected: true }, { tag: 'Male', selected: true }, { tag: 'Female', selected: true }, { tag: 'Manager', selected: false }])
     const [excludedTags, setExcludedTags] = useState(() => includedTags.map(tag => ({ ...tag, selected: !tag.selected })))
 
-    const { setRosterWwe2k24, setCustomRoster } = context;
+    const { setRosterWwe2k24, setCustomRoster } = context
 
     useEffect(() => { 
         const selectedTags = includedTags.filter(tag => tag.selected).map(tag => tag.tag)
@@ -153,7 +153,7 @@ const DraftSideMenu = () => {
     }
 
     return (
-        <SideMenu openMenu={context.showDraftMenu} onCloseMenu={() => context.setShowDraftMenu(false)} title={"Draft Menu"}>
+        <SideMenu openMenu={context.showDraftMenu} onCloseMenu={() => context.setShowDraftMenu(false)} position={'left'} title={"Draft Menu"}>
             <div className="flex flex-col gap-3 px-6 mb-6">
                 {context.showCurrentRoster ? renderDraftConfig() : null}
                 <button
@@ -168,7 +168,7 @@ const DraftSideMenu = () => {
                 </button>
                 <button
                     className={`${context.showCurrentRoster ? 'hidden' : ''} bg-violet-800 w-full py-2 font-bold rounded-bl-lg rounded-lg`}
-                    onClick={() => context.manualDraft()}>
+                    onClick={() => context.addShow()}>
                     Add Show
                 </button>
                 <button
