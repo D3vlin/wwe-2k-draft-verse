@@ -25,10 +25,15 @@ const WrestlerInfoSideMenu = () => {
                 <h3 className="font-medium text-xl">
                     {context.wrestlerInfo.name}
                 </h3>
+                {
+                    (context.wrestlerInfo.wrestlersProfile != '') &&
+                    <a href={context.wrestlerInfo.wrestlersProfile} target="_blank" rel="noopener noreferrer" className="bg-violet-800 w-full py-2 font-bold rounded-bl-lg rounded-lg text-center">
+                        Go To Wrestler&apos;s Profile
+                    </a>}
                 <button
                     className={`${context.showCurrentRoster ? 'hidden' : ''} bg-violet-800 w-full py-2 font-bold rounded-bl-lg rounded-lg`}
                     onClick={() => context.sendToShow()}>
-                    Send To Show #{context.activeShow+1}
+                    Send To Show #{context.activeShow + 1}
                 </button>
             </div>
         </SideMenu>
