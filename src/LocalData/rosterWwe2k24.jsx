@@ -1625,7 +1625,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'indi-hartwell'
     },
     {
         dlc: 'WCW Pack',
@@ -1638,7 +1638,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlRoster+'the-iron-sheik'
     },
     {
         dlc: null,
@@ -1651,7 +1651,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'isla-dawn'
     },
     {
         dlc: null,
@@ -1664,7 +1664,7 @@ const RosterWwe2k24 = [
         weight: 'Super Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'ivar-hanson'
     },
     {
         dlc: null,
@@ -1677,7 +1677,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'ivy-nile'
     },
     {
         dlc: null,
@@ -1690,7 +1690,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'io-shirai'
     },
     {
         dlc: null,
@@ -1703,7 +1703,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'jacy-jayne'
     },
     {
         dlc: 'Global Superstars Pack',
@@ -1716,7 +1716,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'jade-cargill'
     },
     {
         dlc: null,
@@ -1729,7 +1729,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'jake-roberts'
     },
     {
         dlc: null,
@@ -1742,7 +1742,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'jbl-bradshaw'
     },
     {
         dlc: null,
@@ -1755,7 +1755,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'jordan-devlin'
     },
     {
         dlc: null,
@@ -1768,7 +1768,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'triple-h'
     },
     {
         dlc: null,
@@ -1781,7 +1781,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'jerry-lawler'
     },
     {
         dlc: null,
@@ -1794,7 +1794,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'jey-uso'
     },
     {
         dlc: null,
@@ -1807,7 +1807,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'jim-neidhart'
     },
     {
         dlc: null,
@@ -1820,7 +1820,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'jimmy-uso'
     },
     {
         dlc: null,
@@ -1833,7 +1833,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'jinder-mahal'
     },
     {
         dlc: null,
@@ -1846,7 +1846,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'joaquin-wilde-djz'
     },
     {
         dlc: null,
@@ -1859,7 +1859,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'joe-coffey'
     },
     {
         dlc: null,
@@ -1872,7 +1872,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'joe-gacy'
     },
     {
         dlc: null,
@@ -1885,7 +1885,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'john-cena'
     },
     {
         dlc: null,
@@ -1898,7 +1898,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'john-cena'
     },
     {
         dlc: null,
@@ -1911,7 +1911,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'john-cena'
     },
     {
         dlc: null,
@@ -1924,7 +1924,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'john-cena'
     },
     {
         dlc: null,
@@ -1937,7 +1937,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'john-cena'
     },
     {
         dlc: null,
@@ -1950,7 +1950,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'john-cena'
     },
     {
         dlc: null,
@@ -1963,7 +1963,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'john-cena'
     },
     {
         dlc: null,
@@ -1976,7 +1976,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'john-cena'
     },
     {
         dlc: null,
@@ -1989,7 +1989,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'john-cena'
     },
     {
         dlc: null,
@@ -2002,7 +2002,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'johnny-gargano'
     },
     {
         dlc: null,
@@ -2015,7 +2015,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'josh-briggs'
     },
     {
         dlc: null,
@@ -2028,7 +2028,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'john-cena'
     },
     {
         dlc: null,
@@ -2041,7 +2041,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'julius-creed-jacob-kasper'
     },
     {
         dlc: 'Global Superstars Pack',
@@ -2054,7 +2054,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'kairi-sane'
     },
     {
         dlc: null,
@@ -2067,7 +2067,7 @@ const RosterWwe2k24 = [
         weight: 'Super Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'kane'
     },
     {
         dlc: null,
@@ -2080,7 +2080,7 @@ const RosterWwe2k24 = [
         weight: 'Super Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'kane'
     },
     {
         dlc: null,
@@ -2093,7 +2093,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'karl-anderson'
     },
     {
         dlc: null,
@@ -2106,7 +2106,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'killer-kross-karrion-kross'
     },
     {
         dlc: null,
@@ -2119,7 +2119,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'kacy-catanzaro'
     },
     {
         dlc: null,
@@ -2132,7 +2132,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'kayden-carter'
     },
     {
         dlc: null,
@@ -2145,7 +2145,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'ken-shamrock'
     },
     {
         dlc: null,
@@ -2158,7 +2158,7 @@ const RosterWwe2k24 = [
         weight: 'Super Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'kevin-nash'
     },
     {
         dlc: null,
@@ -2171,7 +2171,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'kevin-owens'
     },
     {
         dlc: null,
@@ -2184,7 +2184,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'kevin-owens'
     },
     {
         dlc: null,
@@ -2197,7 +2197,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'booker-t'
     },
     {
         dlc: null,
@@ -2210,7 +2210,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'sam-stoker'
     },
     {
         dlc: null,
@@ -2223,7 +2223,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'kofi-kingston'
     },
     {
         dlc: null,
@@ -2236,7 +2236,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'kurt-angle'
     },
     {
         dlc: null,
@@ -2249,7 +2249,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'eli-drake'
     },
     {
         dlc: 'WCW Pack',
@@ -2262,7 +2262,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'lex-luger'
     },
     {
         dlc: null,
@@ -2275,7 +2275,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'lex-luger'
     },
     {
         dlc: null,
@@ -2288,7 +2288,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'lita'
     },
     {
         dlc: null,
@@ -2301,7 +2301,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'liv-morgan'
     },
     {
         dlc: null,
@@ -2314,7 +2314,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'logan-paul'
     },
     {
         dlc: null,
@@ -2327,7 +2327,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'marcel-barthel'
     },
     {
         dlc: null,
@@ -2340,7 +2340,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'luke-gallows'
     },
     {
         dlc: 'Global Superstars Pack',
@@ -2353,7 +2353,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'aoife-valkyrie'
     },
     {
         dlc: '40 Years of WrestleMania Edition',
@@ -2366,7 +2366,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'randy-savage'
     },
     {
         dlc: null,
@@ -2379,7 +2379,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'randy-savage'
     },
     {
         dlc: null,
@@ -2392,7 +2392,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'randy-savage'
     },
     {
         dlc: null,
@@ -2405,7 +2405,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'mick-foley'
     },
     {
         dlc: null,
@@ -2418,7 +2418,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'mark-coffey'
     },
     {
         dlc: null,
@@ -2431,7 +2431,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'maryse'
     },
     {
         dlc: null,
@@ -2444,7 +2444,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'sofia-cromwell'
     },
     {
         dlc: 'Global Superstars Pack',
@@ -2457,7 +2457,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'michelle-mccool'
     },
     {
         dlc: null,
@@ -2470,7 +2470,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'mia-yim'
     },
     {
         dlc: null,
@@ -2483,7 +2483,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'mia-yim'
     },
     {
         dlc: null,
@@ -2496,7 +2496,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'molly-holly'
     },
     {
         dlc: null,
@@ -2509,7 +2509,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'the-miz'
     },
     {
         dlc: null,
@@ -2522,7 +2522,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'molly-holly'
     },
     {
         dlc: null,
@@ -2535,7 +2535,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'montez-ford'
     },
     {
         dlc: 'Post Malone & Friends Pack',
@@ -2548,7 +2548,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'mosh-chaz'
     },
     {
         dlc: 'WCW Pack',
@@ -2561,7 +2561,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'mr-perfect-curt-hennig'
     },
     {
         dlc: null,
@@ -2574,7 +2574,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlRoster+'muhammad-ali'
     },
     {
         dlc: null,
@@ -2587,7 +2587,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'mvp'
     },
     {
         dlc: null,
@@ -2600,7 +2600,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'natalya'
     },
     {
         dlc: null,
@@ -2613,7 +2613,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'benjamin-carter'
     },
     {
         dlc: 'Global Superstars Pack',
@@ -2626,7 +2626,7 @@ const RosterWwe2k24 = [
         weight: 'Super Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'nia-jax'
     },
     {
         dlc: null,
@@ -2639,7 +2639,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'nikki-cross'
     },
     {
         dlc: null,
@@ -2652,7 +2652,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'nikkita-lyons'
     },
     {
         dlc: null,
@@ -2665,7 +2665,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'noam-dar'
     },
     {
         dlc: null,
@@ -2678,7 +2678,7 @@ const RosterWwe2k24 = [
         weight: 'Super Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'jordan-omogbehin'
     },
     {
         dlc: null,
@@ -2691,7 +2691,7 @@ const RosterWwe2k24 = [
         weight: 'Super Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'otis'
     },
     {
         dlc: 'Pat Mcafee Pack',
@@ -2704,7 +2704,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'pat-mcafee'
     },
     {
         dlc: null,
@@ -2717,7 +2717,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'piper-niven'
     },
     {
         dlc: 'Post Malone & Friends Pack',
@@ -2730,7 +2730,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlRoster+'post-malone'
     },
     {
         dlc: null,
@@ -2743,7 +2743,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'r-truth'
     },
     {
         dlc: null,
@@ -2756,7 +2756,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'randy-orton'
     },
     {
         dlc: null,
@@ -2769,7 +2769,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'randy-orton'
     },
     {
         dlc: null,
@@ -2782,7 +2782,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'randy-orton'
     },
     {
         dlc: null,
@@ -2795,7 +2795,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'randy-orton'
     },
     {
         dlc: null,
@@ -2808,7 +2808,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'raquel-gonzalez'
     },
     {
         dlc: null,
@@ -2821,7 +2821,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'raquel-gonzalez'
     },
     {
         dlc: null,
@@ -2834,7 +2834,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'rick-rude'
     },
     {
         dlc: null,
@@ -2847,7 +2847,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'scott-hall-razor-ramon'
     },
     {
         dlc: null,
@@ -2860,7 +2860,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'rey-mysterio'
     },
     {
         dlc: null,
@@ -2873,7 +2873,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'rey-mysterio'
     },
     {
         dlc: '40 Years of WrestleMania Edition',
@@ -2886,7 +2886,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'rey-mysterio'
     },
     {
         dlc: null,
@@ -2899,7 +2899,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'rhea-ripley'
     },
     {
         dlc: null,
@@ -2912,7 +2912,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'rhea-ripley'
     },
     {
         dlc: null,
@@ -2925,7 +2925,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'rhea-ripley'
     },
     {
         dlc: null,
@@ -2938,7 +2938,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'rhea-ripley'
     },
     {
         dlc: 'Deluxe Edition',
@@ -2951,7 +2951,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'rhea-ripley'
     },
     {
         dlc: '40 Years of WrestleMania Edition',
@@ -2964,7 +2964,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'rhea-ripley'
     },
     {
         dlc: null,
@@ -2977,7 +2977,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'rick-steiner'
     },
     {
         dlc: null,
@@ -2990,7 +2990,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'ricky-steamboat'
     },
     {
         dlc: null,
@@ -3003,7 +3003,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'ricochet'
     },
     {
         dlc: null,
@@ -3016,7 +3016,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'ridge-holland'
     },
     {
         dlc: null,
@@ -3029,7 +3029,7 @@ const RosterWwe2k24 = [
         weight: 'Super Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'rikishi'
     },
     {
         dlc: null,
@@ -3042,7 +3042,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'rob-van-dam'
     },
     {
         dlc: null,
@@ -3055,7 +3055,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'robert-roode'
     },
     {
         dlc: null,
@@ -3068,7 +3068,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'the-rock'
     },
     {
         dlc: null,
@@ -3081,7 +3081,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'the-rock'
     },
     {
         dlc: null,
@@ -3094,7 +3094,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'the-rock'
     },
     {
         dlc: null,
@@ -3107,7 +3107,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'the-rock'
     },
     {
         dlc: null,
@@ -3120,7 +3120,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'roman-reigns'
     },
     {
         dlc: null,
@@ -3133,7 +3133,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'roman-reigns'
     },
     {
         dlc: null,
@@ -3146,7 +3146,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'roman-reigns'
     },
     {
         dlc: null,
@@ -3159,7 +3159,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'roman-reigns'
     },
     {
         dlc: null,
@@ -3172,7 +3172,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'roman-reigns'
     },
     {
         dlc: null,
@@ -3185,7 +3185,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'ronda-rousey'
     },
     {
         dlc: null,
@@ -3198,7 +3198,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'roddy-piper'
     },
     {
         dlc: null,
@@ -3211,7 +3211,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'rok-c'
     },
     {
         dlc: null,
@@ -3224,7 +3224,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'sami-zayn'
     },
     {
         dlc: 'ECW Punk Pack',
@@ -3237,7 +3237,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'the-sandman'
     },
     {
         dlc: null,
@@ -3250,7 +3250,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'saurav-gurjar'
     },
     {
         dlc: null,
@@ -3263,7 +3263,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'santos-escobar-el-hijo-del-fantasma-king-cuerno'
     },
     {
         dlc: null,
@@ -3276,7 +3276,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'scarlett-bordeaux'
     },
     {
         dlc: null,
@@ -3289,7 +3289,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'scott-hall-razor-ramon'
     },
     {
         dlc: null,
@@ -3302,7 +3302,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'scott-steiner'
     },
     {
         dlc: null,
@@ -3315,7 +3315,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'reginald-thomas'
     },
     {
         dlc: 'Post Malone & Friends Pack',
@@ -3328,7 +3328,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'sherri-martel-sensational-sherri'
     },
     {
         dlc: null,
@@ -3341,7 +3341,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'seth-rollins'
     },
     {
         dlc: null,
@@ -3354,7 +3354,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'seth-rollins'
     },
     {
         dlc: null,
@@ -3367,7 +3367,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'seth-rollins'
     },
     {
         dlc: null,
@@ -3380,7 +3380,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'shane-mcmahon'
     },
     {
         dlc: null,
@@ -3393,7 +3393,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'shawn-michaels'
     },
     {
         dlc: null,
@@ -3406,7 +3406,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'shawn-michaels'
     },
     {
         dlc: null,
@@ -3419,7 +3419,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'shawn-michaels'
     },
     {
         dlc: null,
@@ -3432,7 +3432,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'shawn-michaels'
     },
     {
         dlc: null,
@@ -3445,7 +3445,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'shayna-baszler'
     },
     {
         dlc: null,
@@ -3458,7 +3458,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'sheamus'
     },
     {
         dlc: null,
@@ -3471,7 +3471,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'sheamus'
     },
     {
         dlc: null,
@@ -3484,7 +3484,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'shinsuke-nakamura'
     },
     {
         dlc: null,
@@ -3497,7 +3497,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'shotzi-blackheart'
     },
     {
         dlc: null,
@@ -3510,7 +3510,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'randy-savage'
     },
     {
         dlc: null,
@@ -3523,7 +3523,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'sefa-fatu-solo-sikoa'
     },
     {
         dlc: null,
@@ -3536,7 +3536,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'sonya-deville'
     },
     {
         dlc: null,
@@ -3549,7 +3549,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'stacy-keibler'
     },
     {
         dlc: 'Nightmare Family Pack',
@@ -3562,7 +3562,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'cody-rhodes'
     },
     {
         dlc: null,
@@ -3575,7 +3575,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'stephanie-mcmahon'
     },
     {
         dlc: null,
@@ -3588,7 +3588,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'stone-cold-steve-austin'
     },
     {
         dlc: null,
@@ -3601,7 +3601,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'stone-cold-steve-austin'
     },
     {
         dlc: null,
@@ -3614,7 +3614,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'stone-cold-steve-austin'
     },
     {
         dlc: 'Nightmare Family Pack',
@@ -3627,7 +3627,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'superstar-billy-graham'
     },
     {
         dlc: null,
@@ -3640,7 +3640,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'sean-waltman-x-pac-syxx-pac'
     },
     {
         dlc: null,
@@ -3653,7 +3653,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'tamina'
     },
     {
         dlc: null,
@@ -3666,7 +3666,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'million-dollar-man-ted-dibiase'
     },
     {
         dlc: null,
@@ -3679,7 +3679,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'tegan-nox'
     },
     {
         dlc: 'ECW Punk Pack',
@@ -3692,7 +3692,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'terry-funk'
     },
     {
         dlc: null,
@@ -3705,7 +3705,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'thea-hail'
     },
     {
         dlc: null,
@@ -3718,7 +3718,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'thrasher'
     },
     {
         dlc: null,
@@ -3731,7 +3731,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'tiffany-stratton'
     },
     {
         dlc: null,
@@ -3744,7 +3744,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'tommaso-ciampa'
     },
     {
         dlc: null,
@@ -3757,7 +3757,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'tony-d-angelo'
     },
     {
         dlc: null,
@@ -3770,7 +3770,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'trick-williams'
     },
     {
         dlc: null,
@@ -3783,7 +3783,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'trick-williams'
     },
     {
         dlc: null,
@@ -3796,7 +3796,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'triple-h'
     },
     {
         dlc: null,
@@ -3809,7 +3809,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'triple-h'
     },
     {
         dlc: null,
@@ -3822,7 +3822,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'triple-h'
     },
     {
         dlc: '40 Years of WrestleMania Edition',
@@ -3835,7 +3835,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'triple-h'
     },
     {
         dlc: null,
@@ -3848,7 +3848,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'trish-stratus'
     },
     {
         dlc: null,
@@ -3861,7 +3861,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'trish-stratus'
     },
     {
         dlc: 'Pat Mcafee Pack',
@@ -3874,7 +3874,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlRoster+'ty-schmitt'
     },
     {
         dlc: null,
@@ -3887,7 +3887,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'tyler-bate'
     },
     {
         dlc: null,
@@ -3900,7 +3900,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'tyler-breeze'
     },
     {
         dlc: null,
@@ -3913,7 +3913,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'the-ultimate-warrior'
     },
     {
         dlc: null,
@@ -3926,7 +3926,7 @@ const RosterWwe2k24 = [
         weight: 'Super Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'umaga'
     },
     {
         dlc: null,
@@ -3939,7 +3939,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'bo-dallas'
     },
     {
         dlc: null,
@@ -3952,7 +3952,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'bo-dallas'
     },
     {
         dlc: 'Nightmare Family Pack',
@@ -3965,7 +3965,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'cody-rhodes'
     },
     {
         dlc: null,
@@ -3978,7 +3978,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'the-undertaker'
     },
     {
         dlc: null,
@@ -3991,7 +3991,7 @@ const RosterWwe2k24 = [
         weight: 'Super Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'the-undertaker'
     },
     {
         dlc: null,
@@ -4004,7 +4004,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'the-undertaker'
     },
     {
         dlc: null,
@@ -4017,7 +4017,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'the-undertaker'
     },
     {
         dlc: null,
@@ -4030,7 +4030,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'the-undertaker'
     },
     {
         dlc: null,
@@ -4043,7 +4043,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'the-undertaker'
     },
     {
         dlc: null,
@@ -4056,7 +4056,7 @@ const RosterWwe2k24 = [
         weight: 'Super Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'vader'
     },
     {
         dlc: null,
@@ -4069,7 +4069,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'sarah-logan'
     },
     {
         dlc: null,
@@ -4082,7 +4082,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'rinku-singh'
     },
     {
         dlc: null,
@@ -4095,7 +4095,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'wade-barrett'
     },
     {
         dlc: null,
@@ -4108,7 +4108,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'karen-q'
     },
     {
         dlc: null,
@@ -4121,7 +4121,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'dez-dezmond-xavier'
     },
     {
         dlc: null,
@@ -4134,7 +4134,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'william-regal'
     },
     {
         dlc: null,
@@ -4147,7 +4147,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'wolfgang'
     },
     {
         dlc: null,
@@ -4160,7 +4160,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'sean-waltman-x-pac-syxx-pac'
     },
     {
         dlc: null,
@@ -4173,7 +4173,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'xavier-woods'
     },
     {
         dlc: null,
@@ -4186,7 +4186,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'xavier-woods'
     },
     {
         dlc: null,
@@ -4199,7 +4199,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'xia-li'
     },
     {
         dlc: null,
@@ -4212,7 +4212,7 @@ const RosterWwe2k24 = [
         weight: 'Super Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'yokozuna'
     },
     {
         dlc: null,
@@ -4225,7 +4225,7 @@ const RosterWwe2k24 = [
         weight: 'Cruserweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'zelina-vega-rosita'
     },
     {
         dlc: null,
@@ -4238,7 +4238,7 @@ const RosterWwe2k24 = [
         weight: '',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'xavier-woods'
     },
     {
         dlc: null,
@@ -4251,7 +4251,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: ''
+        wrestlersProfile: urlWrestlers+'zoey-stark-lacey-ryan'
     },
 ]
 
