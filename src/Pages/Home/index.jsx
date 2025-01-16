@@ -1,10 +1,8 @@
 import { useContext } from "react"
 import { DraftVerseContext } from "../../Context"
-import { Layout } from "../../Components/Layout"
+import { Layout } from "../../Container/Layout"
 import { Card } from "../../Components/Card"
-import { Modal } from "../../Components/Modal"
 import { RosterContainer } from "../../Components/RosterContainer"
-import { WrestlerForm } from "../../Components/WrestlerForm"
 
 const Home = () => {
     const context = useContext(DraftVerseContext)
@@ -74,30 +72,10 @@ const Home = () => {
 
     return (
         <Layout>
-            <div className="absolute left-0 m-3">
-                <button
-                    className="bg-violet-500 w-full p-2 font-bold rounded-bl-lg rounded-lg"
-                    onClick={() => context.setShowDraftMenu(true)}>
-                    Open Draft Menu
-                </button>
-            </div>
-            <div className="flex flex-col items-center justify-center w-full bg-slate-800">
-                <h1 className="font-medium text-xl mb-4 mt-4">WWE 2k Draft Verse</h1>
-            </div>
             {context.showCurrentRoster ? renderCurrentRoster() : null}
             {context.showCurrentRoster ? renderCustomRoster() : null}
             {!context.showCurrentRoster ? renderFilteredRoster() : null}
             {!context.showCurrentRoster ? renderShows() : null}
-            <div className="absolute top-3 right-10">
-                <a href="https://github.com/D3vlin/wwe-2k-draft-verse" target="_blank" rel="noopener noreferrer">
-                    <img src="./Images/github.webp" alt="githubLogo" className="w-11 cursor-pointer hover:scale-125" />
-                </a>
-            </div>
-            {context.openModal && (
-                <Modal>
-                    <WrestlerForm />
-                </Modal>
-            )}
         </Layout>
     )
 }

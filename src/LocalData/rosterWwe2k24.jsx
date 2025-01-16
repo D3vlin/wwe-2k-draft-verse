@@ -1638,7 +1638,7 @@ const RosterWwe2k24 = [
         weight: 'Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: urlRoster+'the-iron-sheik'
+        wrestlersProfile: urlWrestlers+'the-iron-sheik'
     },
     {
         dlc: null,
@@ -2574,7 +2574,7 @@ const RosterWwe2k24 = [
         weight: 'Light Heavyweight',
         tags: [],
         available: true,
-        wrestlersProfile: urlRoster+'muhammad-ali'
+        wrestlersProfile: urlWrestlers+'muhammad-ali'
     },
     {
         dlc: null,

@@ -1,7 +1,8 @@
+/* eslint-disable react/prop-types */
 import { useContext, useRef, useState } from "react"
 import { DraftVerseContext } from "../../Context"
 
-function WrestlerForm() {
+function WrestlerForm({ setOpenModal }) {
     const context = useContext(DraftVerseContext)
     const genders = ['Male', 'Female']
 
@@ -47,7 +48,7 @@ function WrestlerForm() {
             available: true
         }
         context.setCustomRoster(currentRoster => [...currentRoster, customWrestler])
-        context.setOpenModal(false)
+        setOpenModal()
     }
 
     return (
@@ -124,7 +125,7 @@ function WrestlerForm() {
                 <button
                     type="button"
                     className="bg-gray-800 w-full py-2 font-bold rounded-bl-lg rounded-lg"
-                    onClick={() => { context.setOpenModal(false) }}>
+                    onClick={setOpenModal}>
                     Cancel
                 </button>
                 <button

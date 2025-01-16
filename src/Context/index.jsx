@@ -6,11 +6,9 @@ const DraftVerseContext = createContext()
 
 const DraftVerseProvider = ({ children }) => {
     const [rosterWwe2k24, setRosterWwe2k24] = useState([...RosterWwe2k24])
-    const [showDraftMenu, setShowDraftMenu] = useState(true)
     const [showWrestlerInfo, setShowWrestlerInfo] = useState(false)
     const [wrestlerInfo, setWrestlerInfo] = useState({})
     const [showCurrentRoster, setShowCurrentRoster] = useState(true)
-    const [openModal, setOpenModal] = useState(false)
     const [customRoster, setCustomRoster] = useState([])
     const [filteredRoster, setFilteredRoster] = useState([...rosterWwe2k24, ...customRoster])
     const [totalShows, setTotalShows] = useState(3)
@@ -79,7 +77,6 @@ const DraftVerseProvider = ({ children }) => {
         setShows(newShows)
         setActiveShow(0)
         setShowWrestlerInfo(false)
-        setShowDraftMenu(false)
         setShowCurrentRoster(false)
     }
 
@@ -180,11 +177,9 @@ const DraftVerseProvider = ({ children }) => {
     return (
         <DraftVerseContext.Provider value={
             {
-                showDraftMenu, setShowDraftMenu,
                 showCurrentRoster, setShowCurrentRoster,
                 showWrestlerInfo, setShowWrestlerInfo,
                 wrestlerInfo, setWrestlerInfo,
-                openModal, setOpenModal,
                 customRoster, setCustomRoster,
                 totalShows, handleSetTotalShows,
                 wrestlersPerShow, handleSetWrestlersPerShow,
