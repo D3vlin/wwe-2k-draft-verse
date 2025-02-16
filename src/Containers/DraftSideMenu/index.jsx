@@ -89,6 +89,12 @@ const DraftSideMenu = ({ showDraftMenu, onCloseMenu }) => {
                 <CheckBoxGroup title={'Tags Included'} values={includedTags} selectedColor={"bg-violet-600"} unselectedColor={"bg-slate-600"} onChange={(index) => handleIncludeTagClick(index)} />
                 <CheckBoxGroup title={'Tags Excluded'} values={excludedTags} selectedColor={"bg-red-400"} unselectedColor={"bg-slate-600"} onChange={(index) => handleExcludeTagClick(index)} />
                 <p className="mb-6">
+                    <span className="font-bold">Wrestlers {context.filteredRoster.length}</span>
+                </p>
+                <p className="mb-6">
+                    <span className="font-bold">Managers {context.managersWwe2k24.length}</span>
+                </p>
+                <p className="mb-6">
                     <span className="font-bold">Filtered Roster {context.filteredRoster.length}</span>
                 </p>
                 <InputNumber id={"shows"} title={"Number of shows"} value={context.totalShows} onChange={(value) => context.handleSetTotalShows(value)} />

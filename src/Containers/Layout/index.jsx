@@ -5,7 +5,7 @@ import { DraftSideMenu } from "../DraftSideMenu"
 import { WrestlerInfoSideMenu } from "../../Components/WrestlerInfoSideMenu"
 
 const Layout = ({ children }) => {
-    const [showDraftMenu, setShowDraftMenu] = useState(true)
+    const [showDraftMenu, setShowDraftMenu] = useState(false)
 
     return (
         <div className="flex flex-col items-center">

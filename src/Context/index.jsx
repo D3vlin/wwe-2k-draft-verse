@@ -1,5 +1,6 @@
 /* eslint react/prop-types: "off" */
 import { createContext, useState, useEffect } from "react"
+import { ManagersWwe2k24 } from "../LocalData/managersWwe2k24"
 import { RosterWwe2k24 } from "../LocalData/rosterWwe2k24"
 
 const DraftVerseContext = createContext()
@@ -7,9 +8,11 @@ const DraftVerseContext = createContext()
 const DraftVerseProvider = ({ children }) => {
     const [rosterWwe2k24, setRosterWwe2k24] = useState([...RosterWwe2k24])
     const [showWrestlerInfo, setShowWrestlerInfo] = useState(false)
+    const [managersWwe2k24, setManagersWwe2k24] = useState([...ManagersWwe2k24])
     const [wrestlerInfo, setWrestlerInfo] = useState({})
     const [showCurrentRoster, setShowCurrentRoster] = useState(true)
     const [customRoster, setCustomRoster] = useState([])
+    const [customManagers, setCustomManagers] = useState([])
     const [filteredRoster, setFilteredRoster] = useState([...rosterWwe2k24, ...customRoster])
     const [totalShows, setTotalShows] = useState(3)
     const [wrestlersPerShow, setWrestlersPerShow] = useState(10)
@@ -181,8 +184,10 @@ const DraftVerseProvider = ({ children }) => {
                 showWrestlerInfo, setShowWrestlerInfo,
                 wrestlerInfo, setWrestlerInfo,
                 customRoster, setCustomRoster,
+                customManagers, setCustomManagers,
                 totalShows, handleSetTotalShows,
                 wrestlersPerShow, handleSetWrestlersPerShow,
+                managersWwe2k24, setManagersWwe2k24,
                 rosterWwe2k24, setRosterWwe2k24, filteredRoster,
                 autoDraft, manualDraft, shows,
                 exportCustomRoster, importCustomRoster,
